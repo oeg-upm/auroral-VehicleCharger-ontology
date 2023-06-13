@@ -1,0 +1,417 @@
+@prefix : <https://auroral.iot.linkeddata.es/def/electrical-vehicle#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix ev: <https://auroral.iot.linkeddata.es/def/electrical-vehicle#> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix book: <https://auroral.iot.linkeddata.es/def/car-booking#> .
+@prefix cell: <https://auroral.iot.linkeddata.es/def/cell#> .
+@prefix core: <https://auroral.iot.linkeddata.es/def/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix saref: <https://saref.etsi.org/core#> .
+@prefix adapters: <https://auroral.iot.linkeddata.es/def/adapters#> .
+@base <https://auroral.iot.linkeddata.es/def/electrical-vehicle#> .
+
+<https://auroral.iot.linkeddata.es/def/electrical-vehicle#> rdf:type owl:Ontology ;
+                                                             owl:versionIRI <https://auroral.iot.linkeddata.es/def/electrical-vehicle#/1.0.0> ;
+                                                             <http://purl.org/dc/elements/1.1/creator> "Ahlem Rhayem" ,
+                                                                                                       "Andrea Cimmino" ,
+                                                                                                       "Juan Cano" ,
+                                                                                                       "Maria Poveda Villalon" ,
+                                                                                                       "Raul Garcia Castro" ;
+                                                             <http://purl.org/dc/elements/1.1/description> "The AURORAL Electrical vehicle charger aims at modelling the electrical vehicle charger in the mobility  domain" .
+
+#################################################################
+#    Annotation properties
+#################################################################
+
+###  http://purl.org/dc/elements/1.1/creator
+<http://purl.org/dc/elements/1.1/creator> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/elements/1.1/description
+<http://purl.org/dc/elements/1.1/description> rdf:type owl:AnnotationProperty .
+
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://www.w3.org/2003/01/geo/wgs84_pos#location
+geo:location rdf:type owl:ObjectProperty ;
+             rdfs:domain book:Address ;
+             rdfs:range geo:Point ;
+             rdfs:label "location" .
+
+
+###  https://auroral.iot.linkeddata.es/def/cell#hasOperator
+cell:hasOperator rdf:type owl:ObjectProperty ;
+                 rdfs:domain ev:EVCharger ;
+                 rdfs:range cell:Operator ;
+                 rdfs:label "has operator" .
+
+
+###  https://auroral.iot.linkeddata.es/def/electrical-vehicle#belongsTo
+ev:belongsTo rdf:type owl:ObjectProperty ;
+             rdfs:domain book:Address ;
+             rdfs:range core:Country ;
+             rdfs:label "belongs to" .
+
+
+###  https://auroral.iot.linkeddata.es/def/electrical-vehicle#hasAddress
+ev:hasAddress rdf:type owl:ObjectProperty ;
+              rdfs:domain ev:EVCharger ;
+              rdfs:range book:Address ;
+              rdfs:label "has address" .
+
+
+###  https://auroral.iot.linkeddata.es/def/electrical-vehicle#hasConnection
+ev:hasConnection rdf:type owl:ObjectProperty ;
+                 rdfs:domain ev:EVCharger ;
+                 rdfs:range ev:Connector ;
+                 rdfs:label "has connection" .
+
+
+###  https://auroral.iot.linkeddata.es/def/electrical-vehicle#hasDataProvider
+ev:hasDataProvider rdf:type owl:ObjectProperty ;
+                   rdfs:domain ev:EVCharger ;
+                   rdfs:range ev:DataProvider ;
+                   rdfs:label "has data provider" .
+
+
+###  https://auroral.iot.linkeddata.es/def/electrical-vehicle#usageType
+ev:usageType rdf:type owl:ObjectProperty ;
+             rdfs:domain ev:EVCharger ;
+             rdfs:range ev:UsageType ;
+             rdfs:label "usage type" .
+
+
+###  https://saref.etsi.org/core#measuresProperty
+saref:measuresProperty rdf:type owl:ObjectProperty ;
+                       rdfs:domain core:Device ;
+                       rdfs:range saref:Property ;
+                       rdfs:label "measures property" .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://purl.org/dc/elements/1.1/license
+<http://purl.org/dc/elements/1.1/license> rdf:type owl:DatatypeProperty ;
+                                          rdfs:range xsd:string ;
+                                          rdfs:label "license" .
+
+
+###  http://purl.org/dc/elements/1.1/rights
+<http://purl.org/dc/elements/1.1/rights> rdf:type owl:DatatypeProperty ;
+                                         rdfs:range xsd:string ;
+                                         rdfs:label "rights" .
+
+
+###  http://www.owl-ontologies.com/adapters#dateLastStatusUpdate
+<http://www.owl-ontologies.com/adapters#dateLastStatusUpdate> rdf:type owl:DatatypeProperty ;
+                                                              rdfs:domain adapters:StatusProperty ;
+                                                              rdfs:range xsd:dateTime ;
+                                                              rdfs:label "date last status update" .
+
+
+###  http://www.owl-ontologies.com/adapters#title
+<http://www.owl-ontologies.com/adapters#title> rdf:type owl:DatatypeProperty ;
+                                               rdfs:domain adapters:StatusProperty ;
+                                               rdfs:range xsd:string ;
+                                               rdfs:label "title" .
+
+
+###  http://www.w3.org/2003/01/geo/wgs84_pos#lat
+geo:lat rdf:type owl:DatatypeProperty ;
+        rdfs:domain geo:Point ;
+        rdfs:label "lat" .
+
+
+###  http://www.w3.org/2003/01/geo/wgs84_pos#long
+geo:long rdf:type owl:DatatypeProperty ;
+         rdfs:domain geo:Point ;
+         rdfs:label "long" .
+
+
+###  https://auroral.iot.linkeddata.es/def/car-booking#address
+book:address rdf:type owl:DatatypeProperty ;
+             rdfs:range xsd:string ;
+             rdfs:label "address" .
+
+
+###  https://auroral.iot.linkeddata.es/def/car-booking#city
+book:city rdf:type owl:DatatypeProperty ;
+          rdfs:range xsd:string ;
+          rdfs:label "city" .
+
+
+###  https://auroral.iot.linkeddata.es/def/car-booking#zip
+book:zip rdf:type owl:DatatypeProperty ;
+         rdfs:range xsd:string ;
+         rdfs:label "zip" .
+
+
+###  https://auroral.iot.linkeddata.es/def/cell#operatorId
+cell:operatorId rdf:type owl:DatatypeProperty ;
+                rdfs:range xsd:string ;
+                rdfs:label "operator id" .
+
+
+###  https://auroral.iot.linkeddata.es/def/cell#operatorName
+cell:operatorName rdf:type owl:DatatypeProperty ;
+                  rdfs:range xsd:string ;
+                  rdfs:label "operator name" .
+
+
+###  https://auroral.iot.linkeddata.es/def/electrical-vehicle#accessComment
+ev:accessComment rdf:type owl:DatatypeProperty ;
+                 rdfs:range xsd:string ;
+                 rdfs:label "access comment" .
+
+
+###  https://auroral.iot.linkeddata.es/def/electrical-vehicle#bookingURL
+ev:bookingURL rdf:type owl:DatatypeProperty ;
+              rdfs:range xsd:anyURI ;
+              rdfs:label "booking u r l" .
+
+
+###  https://auroral.iot.linkeddata.es/def/electrical-vehicle#contactEmail
+ev:contactEmail rdf:type owl:DatatypeProperty ;
+                rdfs:range xsd:string ;
+                rdfs:label "contact email" .
+
+
+###  https://auroral.iot.linkeddata.es/def/electrical-vehicle#contactTelephone
+ev:contactTelephone rdf:type owl:DatatypeProperty ;
+                    rdfs:range xsd:string ;
+                    rdfs:label "contact telephone" .
+
+
+###  https://auroral.iot.linkeddata.es/def/electrical-vehicle#description
+ev:description rdf:type owl:DatatypeProperty ;
+               rdfs:domain ev:CurrentType ;
+               rdfs:range xsd:string ;
+               rdfs:label "description" .
+
+
+###  https://auroral.iot.linkeddata.es/def/electrical-vehicle#formalName
+ev:formalName rdf:type owl:DatatypeProperty ;
+              rdfs:domain ev:ConnectorType ;
+              rdfs:range xsd:string ;
+              rdfs:label "formal name" .
+
+
+###  https://auroral.iot.linkeddata.es/def/electrical-vehicle#generalComment
+ev:generalComment rdf:type owl:DatatypeProperty ;
+                  rdfs:domain ev:EVCharger ;
+                  rdfs:range xsd:integer ;
+                  rdfs:label "general comment" .
+
+
+###  https://auroral.iot.linkeddata.es/def/electrical-vehicle#identifierId
+ev:identifierId rdf:type owl:DatatypeProperty ;
+                rdfs:domain ev:EVCharger ;
+                rdfs:range xsd:integer ;
+                rdfs:label "identifier id" .
+
+
+###  https://auroral.iot.linkeddata.es/def/electrical-vehicle#isAccessKeyRequired
+ev:isAccessKeyRequired rdf:type owl:DatatypeProperty ;
+                       rdfs:domain ev:UsageType ;
+                       rdfs:range xsd:boolean ;
+                       rdfs:label "is access key required" .
+
+
+###  https://auroral.iot.linkeddata.es/def/electrical-vehicle#isDiscontinued
+ev:isDiscontinued rdf:type owl:DatatypeProperty ;
+                  rdfs:domain ev:ConnectorType ;
+                  rdfs:range xsd:boolean ;
+                  rdfs:label "is discontinued" .
+
+
+###  https://auroral.iot.linkeddata.es/def/electrical-vehicle#isMemberShipRequired
+ev:isMemberShipRequired rdf:type owl:DatatypeProperty ;
+                        rdfs:domain ev:UsageType ;
+                        rdfs:range xsd:boolean ;
+                        rdfs:label "is member ship required" .
+
+
+###  https://auroral.iot.linkeddata.es/def/electrical-vehicle#isObsolete
+ev:isObsolete rdf:type owl:DatatypeProperty ;
+              rdfs:domain ev:ConnectorType ;
+              rdfs:range xsd:boolean ;
+              rdfs:label "is obsolete" .
+
+
+###  https://auroral.iot.linkeddata.es/def/electrical-vehicle#isPayAtLocation
+ev:isPayAtLocation rdf:type owl:DatatypeProperty ;
+                   rdfs:domain ev:UsageType ;
+                   rdfs:range xsd:boolean ;
+                   rdfs:label "is pay at location" .
+
+
+###  https://auroral.iot.linkeddata.es/def/electrical-vehicle#isPrivateIndividual
+ev:isPrivateIndividual rdf:type owl:DatatypeProperty ;
+                       rdfs:range xsd:boolean ;
+                       rdfs:label "is private individual" .
+
+
+###  https://auroral.iot.linkeddata.es/def/electrical-vehicle#numberOfPoints
+ev:numberOfPoints rdf:type owl:DatatypeProperty ;
+                  rdfs:domain ev:EVCharger ;
+                  rdfs:range xsd:integer ;
+                  rdfs:label "number of points" .
+
+
+###  https://auroral.iot.linkeddata.es/def/electrical-vehicle#phonePrimaryContact
+ev:phonePrimaryContact rdf:type owl:DatatypeProperty ;
+                       rdfs:range xsd:string ;
+                       rdfs:label "phone primary contact" .
+
+
+###  https://auroral.iot.linkeddata.es/def/electrical-vehicle#phoneSecondaryContact
+ev:phoneSecondaryContact rdf:type owl:DatatypeProperty ;
+                         rdfs:range xsd:string ;
+                         rdfs:label "phone secondary contact" .
+
+
+###  https://auroral.iot.linkeddata.es/def/electrical-vehicle#quantity
+ev:quantity rdf:type owl:DatatypeProperty ;
+            rdfs:domain ev:Connector ;
+            rdfs:range xsd:integer ;
+            rdfs:label "quantity" .
+
+
+###  https://auroral.iot.linkeddata.es/def/electrical-vehicle#relatedURL
+ev:relatedURL rdf:type owl:DatatypeProperty ;
+              rdfs:label "related u r l" .
+
+
+###  https://auroral.iot.linkeddata.es/def/electrical-vehicle#title
+ev:title rdf:type owl:DatatypeProperty ;
+         rdfs:domain ev:UsageType ;
+         rdfs:range xsd:string ;
+         rdfs:label "title" .
+
+
+###  https://auroral.iot.linkeddata.es/def/electrical-vehicle#webSiteUrl
+ev:webSiteUrl rdf:type owl:DatatypeProperty ;
+              rdfs:label "web site url" .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.w3.org/2003/01/geo/wgs84_pos#Point
+geo:Point rdf:type owl:Class ;
+          rdfs:label "Point" .
+
+
+###  https://auroral.iot.linkeddata.es/def/adapters#EnergyProperty
+adapters:EnergyProperty rdf:type owl:Class ;
+                        rdfs:subClassOf saref:Property ;
+                        rdfs:label "Energy Property" .
+
+
+###  https://auroral.iot.linkeddata.es/def/adapters#StatusProperty
+adapters:StatusProperty rdf:type owl:Class ;
+                        rdfs:subClassOf saref:Property ;
+                        rdfs:label "Status Property" .
+
+
+###  https://auroral.iot.linkeddata.es/def/car-booking#Address
+book:Address rdf:type owl:Class ;
+             rdfs:label "Address" .
+
+
+###  https://auroral.iot.linkeddata.es/def/cell#Operator
+cell:Operator rdf:type owl:Class ;
+              rdfs:label "Operator" .
+
+
+###  https://auroral.iot.linkeddata.es/def/core#Country
+core:Country rdf:type owl:Class ;
+             rdfs:label "Country" .
+
+
+###  https://auroral.iot.linkeddata.es/def/core#Device
+core:Device rdf:type owl:Class ;
+            rdfs:label "Device" .
+
+
+###  https://auroral.iot.linkeddata.es/def/electrical-vehicle#Connector
+ev:Connector rdf:type owl:Class ;
+             rdfs:subClassOf core:Device ;
+             rdfs:label "Connector" .
+
+
+###  https://auroral.iot.linkeddata.es/def/electrical-vehicle#ConnectorType
+ev:ConnectorType rdf:type owl:Class ;
+                 rdfs:subClassOf ev:Connector ;
+                 rdfs:label "Connection Type" .
+
+
+###  https://auroral.iot.linkeddata.es/def/electrical-vehicle#CurrentType
+ev:CurrentType rdf:type owl:Class ;
+               rdfs:subClassOf ev:Connector ;
+               rdfs:label "Current Type" .
+
+
+###  https://auroral.iot.linkeddata.es/def/electrical-vehicle#DataProvider
+ev:DataProvider rdf:type owl:Class ;
+                rdfs:label "Data Provider" .
+
+
+###  https://auroral.iot.linkeddata.es/def/electrical-vehicle#EVCharger
+ev:EVCharger rdf:type owl:Class ;
+             rdfs:subClassOf core:Device ;
+             rdfs:label "E V Charger" .
+
+
+###  https://auroral.iot.linkeddata.es/def/electrical-vehicle#UsageType
+ev:UsageType rdf:type owl:Class ;
+             rdfs:label "Usage Type" .
+
+
+###  https://saref.etsi.org/core#Property
+saref:Property rdf:type owl:Class ;
+               rdfs:label "Property" .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  https://auroral.iot.linkeddata.es/def/adapters#ElectricCurrent
+adapters:ElectricCurrent rdf:type owl:NamedIndividual ,
+                                  adapters:EnergyProperty .
+
+
+###  https://auroral.iot.linkeddata.es/def/adapters#ElectricVoltage
+adapters:ElectricVoltage rdf:type owl:NamedIndividual ,
+                                  adapters:EnergyProperty .
+
+
+###  https://auroral.iot.linkeddata.es/def/adapters#InstantaneousReactivePower
+adapters:InstantaneousReactivePower rdf:type owl:NamedIndividual ,
+                                             adapters:EnergyProperty .
+
+
+###  https://auroral.iot.linkeddata.es/def/adapters#OperationalStatus
+adapters:OperationalStatus rdf:type owl:NamedIndividual ,
+                                    adapters:StatusProperty ;
+                           rdfs:label "Operational Status" .
+
+
+###  https://auroral.iot.linkeddata.es/def/adapters#SelectableStatus
+adapters:SelectableStatus rdf:type owl:NamedIndividual ,
+                                   adapters:StatusProperty ;
+                          rdfs:label "Selectable Status" .
+
+
+###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi

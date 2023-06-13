@@ -1,0 +1,29 @@
+"Scope: to support the registration, discovery and search of devices in IoT infrastructures... Also retrieve and update... ",,,,,,,,,,
+Requirement,,,,,,,,,,Ontology Code - Traceability
+Identifier (domain+id),Responsible partner,"Competency Question /
+ Natural language sentence (fact)",Answer,"Status (Proposed, Accepted, Rejected, Deprecated)",Superseded by,Comments,Extracted from (provenance),"Priority 
+(High, Medium, Low)",Relation with other requirements,Associated ontology elements
+Requirement 1,UPM,Electrical Vehicle charger (EVC) is a Device (core:Device),,,,,,,,
+Requirement 2,UPM,What are the attributes related to the EVC ,"id, UUID, datecreated, number of points, general comment",,,,,,,
+Requirement 3,UPM,"EVC has a data provider
+",,,,,,,,
+Requirement 4,UPM,"Data provider has the attribute (dcterms:license, dcterms:right)",,,,,,,,
+Requirement 5,UPM,EVC has en Operator ,,,,,,,,
+Requirement 6,UPM,"Operator has the following attributes (WebsiteURL, PhonePrimaryContact, PhoneSecondaryContact, IsPrivateIndividual, BookingURL, ContactEmail, Title)",,,,,,,,
+Requirement 7,UPM,"A EVC has an UsageType ",,,,,,,,
+Requirement 8,UPM,"UsageType has the following attributes (isPayAtLocation, IsMembershipRequired, isAccessKeyRequired, Title)",,,,,,,,
+Requirement 9,UPM,EVC has an address,,,,,,,,
+Requirement 10,UPM,"An address has the following attributes (Title, Adresse, Town, Postcode, contactTelephone1, contactEmail, relatedURL, AccessComments)",,,,,,,,
+Requirement 11,UPM,An address belongs to a country,,,,,,,,
+Requirement 12,UPM,"A country has the following attributes (ISOCode, ContinetCode, Title)",,,,,,,,
+Requirement 13,UPM,The address is located in a geoPoint,,,,,,,,
+Requirement 14,UPM,"geoPoint has the following attributes (lat, long)",,,,,,,,
+Requirement 15,UPM,An ECV has connector,,,,,,,,
+Requirement 16,UPM,Connector has a statusProperty,,,,,,,,
+Requirement 17,UPM,Connector is a Device ,,,,,,,,
+Requirement 18,UPM,Connector has connectionType ,,,,,,,,
+Requirement 19,UPM,"ConnectionType has the following attributes (FormalName, isDiscontinued, isObsolete, Title)",,,,,,,,
+Requirement 20,UPM,"Connector has Property (adapters:EnergyProperty: Voltage, amps, and POwer)",,,,,,,,
+Requirement 21,UPM,Connector has current Type. ,,,,,,,,
+Requirement 22,UPM,EVC has a StatusProperty,,,,,,,,
+Requirement 23,UPM,StatusProperty are: OperationalStatus and SelectableStatus,,,,,,,,
