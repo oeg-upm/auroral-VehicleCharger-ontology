@@ -1,0 +1,12 @@
+digraph ar2dtool_diagram { 
+rankdir=LR;
+size="1000"
+node [shape = rectangle, color="black"]; "ev:CurrentType" "ev:Connector" "ev:ConnectorType" "saref:Property" "adapters:StatusProperty" "adapters:EnergyProperty" "ev:EVCharger" "core:Device" ; /*classes style*/
+	"ev:EVCharger" -> "core:Device" [ label = "rdfs:subClassOf" ];
+	"ev:CurrentType" -> "ev:Connector" [ label = "rdfs:subClassOf" ];
+	"ev:ConnectorType" -> "ev:Connector" [ label = "rdfs:subClassOf" ];
+	"adapters:EnergyProperty" -> "saref:Property" [ label = "rdfs:subClassOf" ];
+	"adapters:StatusProperty" -> "saref:Property" [ label = "rdfs:subClassOf" ];
+	"ev:Connector" -> "core:Device" [ label = "rdfs:subClassOf" ];
+
+}
