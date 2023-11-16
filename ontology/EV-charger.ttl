@@ -21,7 +21,8 @@
                                                                                                        "Juan Cano" ,
                                                                                                        "Maria Poveda Villalon" ,
                                                                                                        "Raul Garcia Castro" ;
-                                                             <http://purl.org/dc/elements/1.1/description> "The AURORAL Electrical vehicle charger aims at modelling the electrical vehicle charger in the mobility  domain" .
+                                                             <http://purl.org/dc/elements/1.1/description> "The AURORAL Electrical vehicle charger aims at modelling the electrical vehicle charger in the mobility  domain" ;
+                                                             dc:license <http://purl.org/NET/rdflicense/cc-by4.0> .
 
 #################################################################
 #    Annotation properties
@@ -35,14 +36,16 @@
 <http://purl.org/dc/elements/1.1/description> rdf:type owl:AnnotationProperty .
 
 
+###  http://purl.org/dc/terms/license
+dc:license rdf:type owl:AnnotationProperty .
+
+
 #################################################################
 #    Object Properties
 #################################################################
 
 ###  http://www.w3.org/2003/01/geo/wgs84_pos#location
 geo:location rdf:type owl:ObjectProperty ;
-             rdfs:domain book:Address ;
-             rdfs:range geo:Point ;
              rdfs:label "location" .
 
 
@@ -127,13 +130,11 @@ saref:measuresProperty rdf:type owl:ObjectProperty ;
 
 ###  http://www.w3.org/2003/01/geo/wgs84_pos#lat
 geo:lat rdf:type owl:DatatypeProperty ;
-        rdfs:domain geo:Point ;
         rdfs:label "lat" .
 
 
 ###  http://www.w3.org/2003/01/geo/wgs84_pos#long
 geo:long rdf:type owl:DatatypeProperty ;
-         rdfs:domain geo:Point ;
          rdfs:label "long" .
 
 
@@ -293,7 +294,6 @@ ev:relatedURL rdf:type owl:DatatypeProperty ;
 
 ###  https://auroral.iot.linkeddata.es/def/electrical-vehicle#title
 ev:title rdf:type owl:DatatypeProperty ;
-         rdfs:domain ev:UsageType ;
          rdfs:range xsd:string ;
          rdfs:label "title" .
 
