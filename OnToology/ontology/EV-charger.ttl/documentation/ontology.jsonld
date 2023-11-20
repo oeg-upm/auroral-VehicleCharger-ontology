@@ -23,6 +23,9 @@
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
   } ]
 }, {
+  "@id" : "http://purl.org/dc/terms/license",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
   "@id" : "http://www.owl-ontologies.com/adapters#dateLastStatusUpdate",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
@@ -55,30 +58,18 @@
 }, {
   "@id" : "http://www.w3.org/2003/01/geo/wgs84_pos#lat",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.w3.org/2003/01/geo/wgs84_pos#Point"
-  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "lat"
   } ]
 }, {
   "@id" : "http://www.w3.org/2003/01/geo/wgs84_pos#location",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://auroral.iot.linkeddata.es/def/car-booking#Address"
-  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "location"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.w3.org/2003/01/geo/wgs84_pos#Point"
   } ]
 }, {
   "@id" : "http://www.w3.org/2003/01/geo/wgs84_pos#long",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.w3.org/2003/01/geo/wgs84_pos#Point"
-  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "long"
   } ]
@@ -233,6 +224,9 @@
   } ],
   "http://purl.org/dc/elements/1.1/description" : [ {
     "@value" : "The AURORAL Electrical vehicle charger aims at modelling the electrical vehicle charger in the mobility  domain"
+  } ],
+  "http://purl.org/dc/terms/license" : [ {
+    "@id" : "http://purl.org/NET/rdflicense/cc-by4.0"
   } ],
   "http://www.w3.org/2002/07/owl#versionIRI" : [ {
     "@id" : "https://auroral.iot.linkeddata.es/def/electrical-vehicle#/1.0.0"
@@ -537,9 +531,6 @@
 }, {
   "@id" : "https://auroral.iot.linkeddata.es/def/electrical-vehicle#title",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://auroral.iot.linkeddata.es/def/electrical-vehicle#UsageType"
-  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "title"
   } ],

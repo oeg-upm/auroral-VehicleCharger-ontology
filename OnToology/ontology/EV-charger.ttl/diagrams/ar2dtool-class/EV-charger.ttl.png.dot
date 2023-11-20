@@ -1,15 +1,15 @@
 digraph ar2dtool_diagram { 
 rankdir=LR;
 size="1501"
-node [shape = rectangle, color="orange"]; "book:Address" "ev:CurrentType" "ev:Connector" "ev:ConnectorType" "saref:Property" "core:Country" "adapters:StatusProperty" "ev:DataProvider" "cell:Operator" "ev:EVCharger" "ev:UsageType" "geo:Point" "core:Device" ; /*classes style*/
+node [shape = rectangle, color="orange"]; "book:Address" "ev:CurrentType" "ev:Connector" "ev:ConnectorType" "saref:Property" "core:Country" "adapters:StatusProperty" "ev:DataProvider" "cell:Operator" "ev:EVCharger" "ev:UsageType" "core:Device" ; /*classes style*/
+	"ev:" -> "http://purl.org/NET/rdflicense/cc-by4.0" [ label = "dc:license" ];
 	"ev:" -> "https://auroral.iot.linkeddata.es/def/electrical-vehicle#/1.0.0" [ label = "owl:versionIRI" ];
 	"ev:Connector" -> "xsd:integer" [ label = "ev:quantity" ];
 	"owl:Thing" -> "xsd:string" [ label = "ev:accessComment" ];
 	"ev:EVCharger" -> "xsd:integer" [ label = "ev:numberOfPoints" ];
 	"owl:Thing" -> "xsd:string" [ label = ":license" ];
 	"core:Device" -> "saref:Property" [ label = "saref:measuresProperty" ];
-	"ev:UsageType" -> "xsd:string" [ label = "ev:title" ];
-	"geo:Point" -> "owl:Thing" [ label = "geo:long" ];
+	"owl:Thing" -> "xsd:string" [ label = "ev:title" ];
 	"ev:EVCharger" -> "xsd:integer" [ label = "ev:generalComment" ];
 	"ev:ConnectorType" -> "xsd:boolean" [ label = "ev:isDiscontinued" ];
 	"owl:Thing" -> "xsd:string" [ label = "ev:phoneSecondaryContact" ];
@@ -20,14 +20,12 @@ node [shape = rectangle, color="orange"]; "book:Address" "ev:CurrentType" "ev:Co
 	"owl:Thing" -> "xsd:boolean" [ label = "ev:isPrivateIndividual" ];
 	"adapters:StatusProperty" -> "xsd:dateTime" [ label = "http://www.owl-ontologies.com/adapters#dateLastStatusUpdate" ];
 	"owl:Thing" -> "xsd:string" [ label = "ev:contactEmail" ];
-	"geo:Point" -> "owl:Thing" [ label = "geo:lat" ];
-	"book:Address" -> "geo:Point" [ label = "geo:location" ];
-	"owl:Thing" -> "xsd:string" [ label = "cell:operatorName" ];
 	"ev:EVCharger" -> "ev:UsageType" [ label = "ev:usageType" ];
+	"owl:Thing" -> "xsd:string" [ label = "cell:operatorName" ];
 	"book:Address" -> "core:Country" [ label = "ev:belongsTo" ];
+	"owl:Thing" -> "xsd:string" [ label = ":rights" ];
 	"owl:Thing" -> "xsd:string" [ label = "book:zip" ];
 	"owl:Thing" -> "xsd:string" [ label = "book:address" ];
-	"owl:Thing" -> "xsd:string" [ label = ":rights" ];
 	"ev:ConnectorType" -> "xsd:boolean" [ label = "ev:isObsolete" ];
 	"ev:EVCharger" -> "ev:Connector" [ label = "ev:hasConnection" ];
 	"owl:Thing" -> "xsd:string" [ label = "ev:contactTelephone" ];

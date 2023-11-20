@@ -1,0 +1,664 @@
+_:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+# 
+# 
+# #################################################################
+# #
+# #    Annotation properties
+# #
+# #################################################################
+# 
+# 
+# http://www.w3.org/ns/shacl#class
+<http://www.w3.org/ns/shacl#class> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/ns/shacl#datatype
+<http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/ns/shacl#name
+<http://www.w3.org/ns/shacl#name> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/ns/shacl#nodeKind
+<http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/ns/shacl#path
+<http://www.w3.org/ns/shacl#path> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/ns/shacl#pattern
+<http://www.w3.org/ns/shacl#pattern> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/ns/shacl#property
+<http://www.w3.org/ns/shacl#property> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/ns/shacl#targetClass
+<http://www.w3.org/ns/shacl#targetClass> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# https://w3id.org/def/astrea#contains
+<https://w3id.org/def/astrea#contains> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# https://w3id.org/def/astrea#generatedShapesFrom
+<https://w3id.org/def/astrea#generatedShapesFrom> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# https://w3id.org/def/astrea#message
+<https://w3id.org/def/astrea#message> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# https://w3id.org/def/astrea#source
+<https://w3id.org/def/astrea#source> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# https://w3id.org/def/astrea#statusCode
+<https://w3id.org/def/astrea#statusCode> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://www.w3.org/ns/shacl#NodeShape
+<http://www.w3.org/ns/shacl#NodeShape> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.w3.org/ns/shacl#PropertyShape
+<http://www.w3.org/ns/shacl#PropertyShape> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# https://w3id.org/def/astrea#ReportEntry
+<https://w3id.org/def/astrea#ReportEntry> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# https://w3id.org/def/astrea#ShapeReport
+<https://w3id.org/def/astrea#ShapeReport> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Individuals
+# #
+# #################################################################
+# 
+# 
+# http://astrea.linkeddata.es/report
+<http://astrea.linkeddata.es/report> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://astrea.linkeddata.es/report> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/def/astrea#ShapeReport> .
+<http://astrea.linkeddata.es/report> <https://w3id.org/def/astrea#contains> <https://astrea.linkeddata.es/shapes#a0fc3e9f229688bc8950adec65f6178a> .
+<http://astrea.linkeddata.es/report> <https://w3id.org/def/astrea#contains> <https://astrea.linkeddata.es/shapes#acd1ffbbbdb62d2aa7ad5b6dbd443b3b> .
+<http://astrea.linkeddata.es/report> <https://w3id.org/def/astrea#contains> <https://astrea.linkeddata.es/shapes#b4a3c10e55794d1f115045ed96a6c6d7> .
+<http://astrea.linkeddata.es/report> <https://w3id.org/def/astrea#contains> <https://astrea.linkeddata.es/shapes#c1e64ad43396105ca66a8d68ba8a2355> .
+<http://astrea.linkeddata.es/report> <https://w3id.org/def/astrea#contains> <https://astrea.linkeddata.es/shapes#c242ef7c8487a365bd27e291bbe297d4> .
+<http://astrea.linkeddata.es/report> <https://w3id.org/def/astrea#contains> <https://astrea.linkeddata.es/shapes#cd513c652936ac84dcd21dccc14aa56e> .
+<http://astrea.linkeddata.es/report> <https://w3id.org/def/astrea#contains> <https://astrea.linkeddata.es/shapes#cfac1f9e90cd24d60339c7abfecdb2f3> .
+<http://astrea.linkeddata.es/report> <https://w3id.org/def/astrea#contains> <https://astrea.linkeddata.es/shapes#d1a859b1392a7b1627a54de8bfbeaac5> .
+<http://astrea.linkeddata.es/report> <https://w3id.org/def/astrea#contains> <https://astrea.linkeddata.es/shapes#d49463392fc6d05f60ae887a50bb47c2> .
+<http://astrea.linkeddata.es/report> <https://w3id.org/def/astrea#contains> <https://astrea.linkeddata.es/shapes#d6eaf11c6ec560fbc70129b4ec517da3> .
+<http://astrea.linkeddata.es/report> <https://w3id.org/def/astrea#contains> <https://astrea.linkeddata.es/shapes#d80e184c3ea6af0bd1f812eed7127f23> .
+<http://astrea.linkeddata.es/report> <https://w3id.org/def/astrea#contains> <https://astrea.linkeddata.es/shapes#daf8b934923800bac6be84660a792b67> .
+<http://astrea.linkeddata.es/report> <https://w3id.org/def/astrea#contains> <https://astrea.linkeddata.es/shapes#dbf3a5c5b46ca45308462b63ccdc96ba> .
+<http://astrea.linkeddata.es/report> <https://w3id.org/def/astrea#contains> <https://astrea.linkeddata.es/shapes#e2c86d5702cb1015d25ea2d6e92413c3> .
+<http://astrea.linkeddata.es/report> <https://w3id.org/def/astrea#contains> <https://astrea.linkeddata.es/shapes#e7990c6dd6a3dca6de078b32328bc4ef> .
+<http://astrea.linkeddata.es/report> <https://w3id.org/def/astrea#contains> <https://astrea.linkeddata.es/shapes#f32ac463fcbe5610fb0a3c3f8c41d67b> .
+<http://astrea.linkeddata.es/report> <https://w3id.org/def/astrea#contains> <https://astrea.linkeddata.es/shapes#fc55fe8c5e46c96d7d698726a89d8598> .
+<http://astrea.linkeddata.es/report> <https://w3id.org/def/astrea#contains> <https://astrea.linkeddata.es/shapes#ffa627c90b2f93431bad38fc95750b9e> .
+<http://astrea.linkeddata.es/report> <https://w3id.org/def/astrea#contains> <https://astrea.linkeddata.es/shapes#0a5a2b2481cb41661d0b8bc1116171b8> .
+<http://astrea.linkeddata.es/report> <https://w3id.org/def/astrea#contains> <https://astrea.linkeddata.es/shapes#0df94f6b2161b19c9c9b203291721e6d> .
+<http://astrea.linkeddata.es/report> <https://w3id.org/def/astrea#contains> <https://astrea.linkeddata.es/shapes#05d9d9e375c834dcf0129f93ebf9eb61> .
+<http://astrea.linkeddata.es/report> <https://w3id.org/def/astrea#contains> <https://astrea.linkeddata.es/shapes#0705d79d023ad5774286503e07efc599> .
+<http://astrea.linkeddata.es/report> <https://w3id.org/def/astrea#contains> <https://astrea.linkeddata.es/shapes#1bebeb416cd25031a409be367b8ea578> .
+<http://astrea.linkeddata.es/report> <https://w3id.org/def/astrea#contains> <https://astrea.linkeddata.es/shapes#10b76d945759c3a36c80ccccff99cd5c> .
+<http://astrea.linkeddata.es/report> <https://w3id.org/def/astrea#contains> <https://astrea.linkeddata.es/shapes#15f4985334b92b193e1650b4a34b5043> .
+<http://astrea.linkeddata.es/report> <https://w3id.org/def/astrea#contains> <https://astrea.linkeddata.es/shapes#172382a059e61f60b739a6e8d904fff3> .
+<http://astrea.linkeddata.es/report> <https://w3id.org/def/astrea#contains> <https://astrea.linkeddata.es/shapes#2f49aa5cf15f41aad07cbde888edd144> .
+<http://astrea.linkeddata.es/report> <https://w3id.org/def/astrea#contains> <https://astrea.linkeddata.es/shapes#22f901ebc6b4bf7027c8f621f8bc4882> .
+<http://astrea.linkeddata.es/report> <https://w3id.org/def/astrea#contains> <https://astrea.linkeddata.es/shapes#235ca8ea5362df53f4434ff263e33129> .
+<http://astrea.linkeddata.es/report> <https://w3id.org/def/astrea#contains> <https://astrea.linkeddata.es/shapes#3ef793712378e097aac823894a277e63> .
+<http://astrea.linkeddata.es/report> <https://w3id.org/def/astrea#contains> <https://astrea.linkeddata.es/shapes#3043636d2ac64366bd20a2638476aae0> .
+<http://astrea.linkeddata.es/report> <https://w3id.org/def/astrea#contains> <https://astrea.linkeddata.es/shapes#311b01211325f60c654931a9614abba2> .
+<http://astrea.linkeddata.es/report> <https://w3id.org/def/astrea#contains> <https://astrea.linkeddata.es/shapes#326bd410f1b9831caf3b44b744bebc8b> .
+<http://astrea.linkeddata.es/report> <https://w3id.org/def/astrea#contains> <https://astrea.linkeddata.es/shapes#33f4d07a088d7ef6b3ec5fccf481b18a> .
+<http://astrea.linkeddata.es/report> <https://w3id.org/def/astrea#contains> <https://astrea.linkeddata.es/shapes#334f2a041d70d124206e6dcd74877622> .
+<http://astrea.linkeddata.es/report> <https://w3id.org/def/astrea#contains> <https://astrea.linkeddata.es/shapes#36245374f10c92af9a0fb4f241aa6d69> .
+<http://astrea.linkeddata.es/report> <https://w3id.org/def/astrea#contains> <https://astrea.linkeddata.es/shapes#4e6ed6d3c750227be4e29309171fe192> .
+<http://astrea.linkeddata.es/report> <https://w3id.org/def/astrea#contains> <https://astrea.linkeddata.es/shapes#46614c0f2a61ba62db337ce8a0fce816> .
+<http://astrea.linkeddata.es/report> <https://w3id.org/def/astrea#contains> <https://astrea.linkeddata.es/shapes#5f7c3b3168fa552456788f72dd1a846b> .
+<http://astrea.linkeddata.es/report> <https://w3id.org/def/astrea#contains> <https://astrea.linkeddata.es/shapes#519bf78429359ffc2e439c7e0c1fc12c> .
+<http://astrea.linkeddata.es/report> <https://w3id.org/def/astrea#contains> <https://astrea.linkeddata.es/shapes#6d9c665a4919723ed71aa11a8838e41e> .
+<http://astrea.linkeddata.es/report> <https://w3id.org/def/astrea#contains> <https://astrea.linkeddata.es/shapes#6758f1d4a74780ad9c675cfca7e24a4d> .
+<http://astrea.linkeddata.es/report> <https://w3id.org/def/astrea#contains> <https://astrea.linkeddata.es/shapes#71f040670d4b9a4a887778511e7d8529> .
+<http://astrea.linkeddata.es/report> <https://w3id.org/def/astrea#contains> <https://astrea.linkeddata.es/shapes#76f1d52b5a38bfe9f4eaebe43b1e10ef> .
+<http://astrea.linkeddata.es/report> <https://w3id.org/def/astrea#contains> <https://astrea.linkeddata.es/shapes#77dfff49ade95cd0918fbee998b3d636> .
+<http://astrea.linkeddata.es/report> <https://w3id.org/def/astrea#contains> <https://astrea.linkeddata.es/shapes#794c3316e8847ea307cdcf62e6d04863> .
+<http://astrea.linkeddata.es/report> <https://w3id.org/def/astrea#contains> <https://astrea.linkeddata.es/shapes#8a03c06b2ca97417247ee7753887fbb4> .
+<http://astrea.linkeddata.es/report> <https://w3id.org/def/astrea#contains> <https://astrea.linkeddata.es/shapes#8b052c638205118b26f91ee96a1386c5> .
+<http://astrea.linkeddata.es/report> <https://w3id.org/def/astrea#contains> <https://astrea.linkeddata.es/shapes#80698950a8e30f41f328b1518c59aba0> .
+<http://astrea.linkeddata.es/report> <https://w3id.org/def/astrea#contains> <https://astrea.linkeddata.es/shapes#8205776f6cc763703225eeb9505b46a9> .
+<http://astrea.linkeddata.es/report> <https://w3id.org/def/astrea#contains> <https://astrea.linkeddata.es/shapes#9e113a1551a8f7dd62d241baaeb204c7> .
+<http://astrea.linkeddata.es/report> <https://w3id.org/def/astrea#contains> <https://astrea.linkeddata.es/shapes#90c2ded574691578345c6382c4f2409b> .
+<http://astrea.linkeddata.es/report> <https://w3id.org/def/astrea#contains> <https://astrea.linkeddata.es/shapes#93d5dfa6b64c3a6af2863cd7ee045c6e> .
+<http://astrea.linkeddata.es/report> <https://w3id.org/def/astrea#contains> <https://astrea.linkeddata.es/shapes#97dab295f4f9f7d800f60764c90d2b18> .
+<http://astrea.linkeddata.es/report> <https://w3id.org/def/astrea#generatedShapesFrom> <https://astrea.linkeddata.es/report/01166280976> .
+# 
+# https://astrea.linkeddata.es/report/01166280976
+<https://astrea.linkeddata.es/report/01166280976> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://astrea.linkeddata.es/report/01166280976> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/def/astrea#ReportEntry> .
+<https://astrea.linkeddata.es/report/01166280976> <https://w3id.org/def/astrea#message> "Shapes generated with no errors" .
+<https://astrea.linkeddata.es/report/01166280976> <https://w3id.org/def/astrea#source> "https://auroral.iot.linkeddata.es/def/vehicle-charger/ontology.ttl" .
+<https://astrea.linkeddata.es/report/01166280976> <https://w3id.org/def/astrea#statusCode> "200"^^<http://www.w3.org/2001/XMLSchema#int> .
+# 
+# https://astrea.linkeddata.es/shapes#a0fc3e9f229688bc8950adec65f6178a
+<https://astrea.linkeddata.es/shapes#a0fc3e9f229688bc8950adec65f6178a> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://astrea.linkeddata.es/shapes#a0fc3e9f229688bc8950adec65f6178a> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#NodeShape> .
+<https://astrea.linkeddata.es/shapes#a0fc3e9f229688bc8950adec65f6178a> <http://www.w3.org/2000/01/rdf-schema#label> "Operator" .
+<https://astrea.linkeddata.es/shapes#a0fc3e9f229688bc8950adec65f6178a> <http://www.w3.org/ns/shacl#name> "Operator" .
+<https://astrea.linkeddata.es/shapes#a0fc3e9f229688bc8950adec65f6178a> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<https://astrea.linkeddata.es/shapes#a0fc3e9f229688bc8950adec65f6178a> <http://www.w3.org/ns/shacl#targetClass> <https://auroral.iot.linkeddata.es/def/cell#Operator> .
+# 
+# https://astrea.linkeddata.es/shapes#acd1ffbbbdb62d2aa7ad5b6dbd443b3b
+<https://astrea.linkeddata.es/shapes#acd1ffbbbdb62d2aa7ad5b6dbd443b3b> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://astrea.linkeddata.es/shapes#acd1ffbbbdb62d2aa7ad5b6dbd443b3b> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyShape> .
+<https://astrea.linkeddata.es/shapes#acd1ffbbbdb62d2aa7ad5b6dbd443b3b> <http://www.w3.org/2000/01/rdf-schema#label> "city" .
+<https://astrea.linkeddata.es/shapes#acd1ffbbbdb62d2aa7ad5b6dbd443b3b> <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/2001/XMLSchema#string> .
+<https://astrea.linkeddata.es/shapes#acd1ffbbbdb62d2aa7ad5b6dbd443b3b> <http://www.w3.org/ns/shacl#name> "city" .
+<https://astrea.linkeddata.es/shapes#acd1ffbbbdb62d2aa7ad5b6dbd443b3b> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#Literal> .
+<https://astrea.linkeddata.es/shapes#acd1ffbbbdb62d2aa7ad5b6dbd443b3b> <http://www.w3.org/ns/shacl#path> <https://auroral.iot.linkeddata.es/def/car-booking#city> .
+<https://astrea.linkeddata.es/shapes#acd1ffbbbdb62d2aa7ad5b6dbd443b3b> <http://www.w3.org/ns/shacl#pattern> ".*" .
+# 
+# https://astrea.linkeddata.es/shapes#b4a3c10e55794d1f115045ed96a6c6d7
+<https://astrea.linkeddata.es/shapes#b4a3c10e55794d1f115045ed96a6c6d7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://astrea.linkeddata.es/shapes#b4a3c10e55794d1f115045ed96a6c6d7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyShape> .
+<https://astrea.linkeddata.es/shapes#b4a3c10e55794d1f115045ed96a6c6d7> <http://www.w3.org/2000/01/rdf-schema#label> "identifier id" .
+<https://astrea.linkeddata.es/shapes#b4a3c10e55794d1f115045ed96a6c6d7> <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/2001/XMLSchema#integer> .
+<https://astrea.linkeddata.es/shapes#b4a3c10e55794d1f115045ed96a6c6d7> <http://www.w3.org/ns/shacl#name> "identifier id" .
+<https://astrea.linkeddata.es/shapes#b4a3c10e55794d1f115045ed96a6c6d7> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#Literal> .
+<https://astrea.linkeddata.es/shapes#b4a3c10e55794d1f115045ed96a6c6d7> <http://www.w3.org/ns/shacl#path> <https://auroral.iot.linkeddata.es/def/electrical-vehicle#identifierId> .
+<https://astrea.linkeddata.es/shapes#b4a3c10e55794d1f115045ed96a6c6d7> <http://www.w3.org/ns/shacl#pattern> "[\\-+]?[0-9]+" .
+# 
+# https://astrea.linkeddata.es/shapes#c1e64ad43396105ca66a8d68ba8a2355
+<https://astrea.linkeddata.es/shapes#c1e64ad43396105ca66a8d68ba8a2355> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://astrea.linkeddata.es/shapes#c1e64ad43396105ca66a8d68ba8a2355> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#NodeShape> .
+<https://astrea.linkeddata.es/shapes#c1e64ad43396105ca66a8d68ba8a2355> <http://www.w3.org/2000/01/rdf-schema#label> "Connector" .
+<https://astrea.linkeddata.es/shapes#c1e64ad43396105ca66a8d68ba8a2355> <http://www.w3.org/ns/shacl#name> "Connector" .
+<https://astrea.linkeddata.es/shapes#c1e64ad43396105ca66a8d68ba8a2355> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<https://astrea.linkeddata.es/shapes#c1e64ad43396105ca66a8d68ba8a2355> <http://www.w3.org/ns/shacl#property> <https://astrea.linkeddata.es/shapes#311b01211325f60c654931a9614abba2> .
+<https://astrea.linkeddata.es/shapes#c1e64ad43396105ca66a8d68ba8a2355> <http://www.w3.org/ns/shacl#targetClass> <https://auroral.iot.linkeddata.es/def/electrical-vehicle#Connector> .
+# 
+# https://astrea.linkeddata.es/shapes#c242ef7c8487a365bd27e291bbe297d4
+<https://astrea.linkeddata.es/shapes#c242ef7c8487a365bd27e291bbe297d4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://astrea.linkeddata.es/shapes#c242ef7c8487a365bd27e291bbe297d4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#NodeShape> .
+<https://astrea.linkeddata.es/shapes#c242ef7c8487a365bd27e291bbe297d4> <http://www.w3.org/2000/01/rdf-schema#label> "Address" .
+<https://astrea.linkeddata.es/shapes#c242ef7c8487a365bd27e291bbe297d4> <http://www.w3.org/ns/shacl#name> "Address" .
+<https://astrea.linkeddata.es/shapes#c242ef7c8487a365bd27e291bbe297d4> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<https://astrea.linkeddata.es/shapes#c242ef7c8487a365bd27e291bbe297d4> <http://www.w3.org/ns/shacl#property> <https://astrea.linkeddata.es/shapes#ffa627c90b2f93431bad38fc95750b9e> .
+<https://astrea.linkeddata.es/shapes#c242ef7c8487a365bd27e291bbe297d4> <http://www.w3.org/ns/shacl#property> <https://astrea.linkeddata.es/shapes#3043636d2ac64366bd20a2638476aae0> .
+<https://astrea.linkeddata.es/shapes#c242ef7c8487a365bd27e291bbe297d4> <http://www.w3.org/ns/shacl#targetClass> <https://auroral.iot.linkeddata.es/def/car-booking#Address> .
+# 
+# https://astrea.linkeddata.es/shapes#cd513c652936ac84dcd21dccc14aa56e
+<https://astrea.linkeddata.es/shapes#cd513c652936ac84dcd21dccc14aa56e> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://astrea.linkeddata.es/shapes#cd513c652936ac84dcd21dccc14aa56e> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyShape> .
+<https://astrea.linkeddata.es/shapes#cd513c652936ac84dcd21dccc14aa56e> <http://www.w3.org/2000/01/rdf-schema#label> "license" .
+<https://astrea.linkeddata.es/shapes#cd513c652936ac84dcd21dccc14aa56e> <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/2001/XMLSchema#string> .
+<https://astrea.linkeddata.es/shapes#cd513c652936ac84dcd21dccc14aa56e> <http://www.w3.org/ns/shacl#name> "license" .
+<https://astrea.linkeddata.es/shapes#cd513c652936ac84dcd21dccc14aa56e> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#Literal> .
+<https://astrea.linkeddata.es/shapes#cd513c652936ac84dcd21dccc14aa56e> <http://www.w3.org/ns/shacl#path> <http://purl.org/dc/elements/1.1/license> .
+<https://astrea.linkeddata.es/shapes#cd513c652936ac84dcd21dccc14aa56e> <http://www.w3.org/ns/shacl#pattern> ".*" .
+# 
+# https://astrea.linkeddata.es/shapes#cfac1f9e90cd24d60339c7abfecdb2f3
+<https://astrea.linkeddata.es/shapes#cfac1f9e90cd24d60339c7abfecdb2f3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://astrea.linkeddata.es/shapes#cfac1f9e90cd24d60339c7abfecdb2f3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyShape> .
+<https://astrea.linkeddata.es/shapes#cfac1f9e90cd24d60339c7abfecdb2f3> <http://www.w3.org/2000/01/rdf-schema#label> "rights" .
+<https://astrea.linkeddata.es/shapes#cfac1f9e90cd24d60339c7abfecdb2f3> <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/2001/XMLSchema#string> .
+<https://astrea.linkeddata.es/shapes#cfac1f9e90cd24d60339c7abfecdb2f3> <http://www.w3.org/ns/shacl#name> "rights" .
+<https://astrea.linkeddata.es/shapes#cfac1f9e90cd24d60339c7abfecdb2f3> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#Literal> .
+<https://astrea.linkeddata.es/shapes#cfac1f9e90cd24d60339c7abfecdb2f3> <http://www.w3.org/ns/shacl#path> <http://purl.org/dc/elements/1.1/rights> .
+<https://astrea.linkeddata.es/shapes#cfac1f9e90cd24d60339c7abfecdb2f3> <http://www.w3.org/ns/shacl#pattern> ".*" .
+# 
+# https://astrea.linkeddata.es/shapes#d1a859b1392a7b1627a54de8bfbeaac5
+<https://astrea.linkeddata.es/shapes#d1a859b1392a7b1627a54de8bfbeaac5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://astrea.linkeddata.es/shapes#d1a859b1392a7b1627a54de8bfbeaac5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyShape> .
+<https://astrea.linkeddata.es/shapes#d1a859b1392a7b1627a54de8bfbeaac5> <http://www.w3.org/2000/01/rdf-schema#label> "web site url" .
+<https://astrea.linkeddata.es/shapes#d1a859b1392a7b1627a54de8bfbeaac5> <http://www.w3.org/ns/shacl#name> "web site url" .
+<https://astrea.linkeddata.es/shapes#d1a859b1392a7b1627a54de8bfbeaac5> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#Literal> .
+<https://astrea.linkeddata.es/shapes#d1a859b1392a7b1627a54de8bfbeaac5> <http://www.w3.org/ns/shacl#path> <https://auroral.iot.linkeddata.es/def/electrical-vehicle#webSiteUrl> .
+# 
+# https://astrea.linkeddata.es/shapes#d49463392fc6d05f60ae887a50bb47c2
+<https://astrea.linkeddata.es/shapes#d49463392fc6d05f60ae887a50bb47c2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://astrea.linkeddata.es/shapes#d49463392fc6d05f60ae887a50bb47c2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyShape> .
+<https://astrea.linkeddata.es/shapes#d49463392fc6d05f60ae887a50bb47c2> <http://www.w3.org/2000/01/rdf-schema#label> "contact email" .
+<https://astrea.linkeddata.es/shapes#d49463392fc6d05f60ae887a50bb47c2> <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/2001/XMLSchema#string> .
+<https://astrea.linkeddata.es/shapes#d49463392fc6d05f60ae887a50bb47c2> <http://www.w3.org/ns/shacl#name> "contact email" .
+<https://astrea.linkeddata.es/shapes#d49463392fc6d05f60ae887a50bb47c2> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#Literal> .
+<https://astrea.linkeddata.es/shapes#d49463392fc6d05f60ae887a50bb47c2> <http://www.w3.org/ns/shacl#path> <https://auroral.iot.linkeddata.es/def/electrical-vehicle#contactEmail> .
+<https://astrea.linkeddata.es/shapes#d49463392fc6d05f60ae887a50bb47c2> <http://www.w3.org/ns/shacl#pattern> ".*" .
+# 
+# https://astrea.linkeddata.es/shapes#d6eaf11c6ec560fbc70129b4ec517da3
+<https://astrea.linkeddata.es/shapes#d6eaf11c6ec560fbc70129b4ec517da3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://astrea.linkeddata.es/shapes#d6eaf11c6ec560fbc70129b4ec517da3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyShape> .
+<https://astrea.linkeddata.es/shapes#d6eaf11c6ec560fbc70129b4ec517da3> <http://www.w3.org/2000/01/rdf-schema#label> "zip" .
+<https://astrea.linkeddata.es/shapes#d6eaf11c6ec560fbc70129b4ec517da3> <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/2001/XMLSchema#string> .
+<https://astrea.linkeddata.es/shapes#d6eaf11c6ec560fbc70129b4ec517da3> <http://www.w3.org/ns/shacl#name> "zip" .
+<https://astrea.linkeddata.es/shapes#d6eaf11c6ec560fbc70129b4ec517da3> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#Literal> .
+<https://astrea.linkeddata.es/shapes#d6eaf11c6ec560fbc70129b4ec517da3> <http://www.w3.org/ns/shacl#path> <https://auroral.iot.linkeddata.es/def/car-booking#zip> .
+<https://astrea.linkeddata.es/shapes#d6eaf11c6ec560fbc70129b4ec517da3> <http://www.w3.org/ns/shacl#pattern> ".*" .
+# 
+# https://astrea.linkeddata.es/shapes#d80e184c3ea6af0bd1f812eed7127f23
+<https://astrea.linkeddata.es/shapes#d80e184c3ea6af0bd1f812eed7127f23> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://astrea.linkeddata.es/shapes#d80e184c3ea6af0bd1f812eed7127f23> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyShape> .
+<https://astrea.linkeddata.es/shapes#d80e184c3ea6af0bd1f812eed7127f23> <http://www.w3.org/2000/01/rdf-schema#label> "title" .
+<https://astrea.linkeddata.es/shapes#d80e184c3ea6af0bd1f812eed7127f23> <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/2001/XMLSchema#string> .
+<https://astrea.linkeddata.es/shapes#d80e184c3ea6af0bd1f812eed7127f23> <http://www.w3.org/ns/shacl#name> "title" .
+<https://astrea.linkeddata.es/shapes#d80e184c3ea6af0bd1f812eed7127f23> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#Literal> .
+<https://astrea.linkeddata.es/shapes#d80e184c3ea6af0bd1f812eed7127f23> <http://www.w3.org/ns/shacl#path> <http://www.owl-ontologies.com/adapters#title> .
+<https://astrea.linkeddata.es/shapes#d80e184c3ea6af0bd1f812eed7127f23> <http://www.w3.org/ns/shacl#pattern> ".*" .
+# 
+# https://astrea.linkeddata.es/shapes#daf8b934923800bac6be84660a792b67
+<https://astrea.linkeddata.es/shapes#daf8b934923800bac6be84660a792b67> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://astrea.linkeddata.es/shapes#daf8b934923800bac6be84660a792b67> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyShape> .
+<https://astrea.linkeddata.es/shapes#daf8b934923800bac6be84660a792b67> <http://www.w3.org/2000/01/rdf-schema#label> "related u r l" .
+<https://astrea.linkeddata.es/shapes#daf8b934923800bac6be84660a792b67> <http://www.w3.org/ns/shacl#name> "related u r l" .
+<https://astrea.linkeddata.es/shapes#daf8b934923800bac6be84660a792b67> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#Literal> .
+<https://astrea.linkeddata.es/shapes#daf8b934923800bac6be84660a792b67> <http://www.w3.org/ns/shacl#path> <https://auroral.iot.linkeddata.es/def/electrical-vehicle#relatedURL> .
+# 
+# https://astrea.linkeddata.es/shapes#dbf3a5c5b46ca45308462b63ccdc96ba
+<https://astrea.linkeddata.es/shapes#dbf3a5c5b46ca45308462b63ccdc96ba> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://astrea.linkeddata.es/shapes#dbf3a5c5b46ca45308462b63ccdc96ba> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#NodeShape> .
+<https://astrea.linkeddata.es/shapes#dbf3a5c5b46ca45308462b63ccdc96ba> <http://www.w3.org/2000/01/rdf-schema#label> "Current Type" .
+<https://astrea.linkeddata.es/shapes#dbf3a5c5b46ca45308462b63ccdc96ba> <http://www.w3.org/ns/shacl#name> "Current Type" .
+<https://astrea.linkeddata.es/shapes#dbf3a5c5b46ca45308462b63ccdc96ba> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<https://astrea.linkeddata.es/shapes#dbf3a5c5b46ca45308462b63ccdc96ba> <http://www.w3.org/ns/shacl#property> <https://astrea.linkeddata.es/shapes#2f49aa5cf15f41aad07cbde888edd144> .
+<https://astrea.linkeddata.es/shapes#dbf3a5c5b46ca45308462b63ccdc96ba> <http://www.w3.org/ns/shacl#targetClass> <https://auroral.iot.linkeddata.es/def/electrical-vehicle#CurrentType> .
+# 
+# https://astrea.linkeddata.es/shapes#e2c86d5702cb1015d25ea2d6e92413c3
+<https://astrea.linkeddata.es/shapes#e2c86d5702cb1015d25ea2d6e92413c3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://astrea.linkeddata.es/shapes#e2c86d5702cb1015d25ea2d6e92413c3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyShape> .
+<https://astrea.linkeddata.es/shapes#e2c86d5702cb1015d25ea2d6e92413c3> <http://www.w3.org/2000/01/rdf-schema#label> "measures property" .
+<https://astrea.linkeddata.es/shapes#e2c86d5702cb1015d25ea2d6e92413c3> <http://www.w3.org/ns/shacl#class> <https://saref.etsi.org/core#Property> .
+<https://astrea.linkeddata.es/shapes#e2c86d5702cb1015d25ea2d6e92413c3> <http://www.w3.org/ns/shacl#name> "measures property" .
+<https://astrea.linkeddata.es/shapes#e2c86d5702cb1015d25ea2d6e92413c3> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#BlankNodeOrIRI> .
+<https://astrea.linkeddata.es/shapes#e2c86d5702cb1015d25ea2d6e92413c3> <http://www.w3.org/ns/shacl#path> <https://saref.etsi.org/core#measuresProperty> .
+# 
+# https://astrea.linkeddata.es/shapes#e7990c6dd6a3dca6de078b32328bc4ef
+<https://astrea.linkeddata.es/shapes#e7990c6dd6a3dca6de078b32328bc4ef> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://astrea.linkeddata.es/shapes#e7990c6dd6a3dca6de078b32328bc4ef> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyShape> .
+<https://astrea.linkeddata.es/shapes#e7990c6dd6a3dca6de078b32328bc4ef> <http://www.w3.org/2000/01/rdf-schema#label> "long" .
+<https://astrea.linkeddata.es/shapes#e7990c6dd6a3dca6de078b32328bc4ef> <http://www.w3.org/ns/shacl#name> "long" .
+<https://astrea.linkeddata.es/shapes#e7990c6dd6a3dca6de078b32328bc4ef> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#Literal> .
+<https://astrea.linkeddata.es/shapes#e7990c6dd6a3dca6de078b32328bc4ef> <http://www.w3.org/ns/shacl#path> <http://www.w3.org/2003/01/geo/wgs84_pos#long> .
+# 
+# https://astrea.linkeddata.es/shapes#f32ac463fcbe5610fb0a3c3f8c41d67b
+<https://astrea.linkeddata.es/shapes#f32ac463fcbe5610fb0a3c3f8c41d67b> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://astrea.linkeddata.es/shapes#f32ac463fcbe5610fb0a3c3f8c41d67b> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyShape> .
+<https://astrea.linkeddata.es/shapes#f32ac463fcbe5610fb0a3c3f8c41d67b> <http://www.w3.org/2000/01/rdf-schema#label> "is discontinued" .
+<https://astrea.linkeddata.es/shapes#f32ac463fcbe5610fb0a3c3f8c41d67b> <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/2001/XMLSchema#boolean> .
+<https://astrea.linkeddata.es/shapes#f32ac463fcbe5610fb0a3c3f8c41d67b> <http://www.w3.org/ns/shacl#name> "is discontinued" .
+<https://astrea.linkeddata.es/shapes#f32ac463fcbe5610fb0a3c3f8c41d67b> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#Literal> .
+<https://astrea.linkeddata.es/shapes#f32ac463fcbe5610fb0a3c3f8c41d67b> <http://www.w3.org/ns/shacl#path> <https://auroral.iot.linkeddata.es/def/electrical-vehicle#isDiscontinued> .
+<https://astrea.linkeddata.es/shapes#f32ac463fcbe5610fb0a3c3f8c41d67b> <http://www.w3.org/ns/shacl#pattern> "true|false|0|1" .
+# 
+# https://astrea.linkeddata.es/shapes#fc55fe8c5e46c96d7d698726a89d8598
+<https://astrea.linkeddata.es/shapes#fc55fe8c5e46c96d7d698726a89d8598> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://astrea.linkeddata.es/shapes#fc55fe8c5e46c96d7d698726a89d8598> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#NodeShape> .
+<https://astrea.linkeddata.es/shapes#fc55fe8c5e46c96d7d698726a89d8598> <http://www.w3.org/2000/01/rdf-schema#label> "Property" .
+<https://astrea.linkeddata.es/shapes#fc55fe8c5e46c96d7d698726a89d8598> <http://www.w3.org/ns/shacl#name> "Property" .
+<https://astrea.linkeddata.es/shapes#fc55fe8c5e46c96d7d698726a89d8598> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<https://astrea.linkeddata.es/shapes#fc55fe8c5e46c96d7d698726a89d8598> <http://www.w3.org/ns/shacl#targetClass> <https://saref.etsi.org/core#Property> .
+# 
+# https://astrea.linkeddata.es/shapes#ffa627c90b2f93431bad38fc95750b9e
+<https://astrea.linkeddata.es/shapes#ffa627c90b2f93431bad38fc95750b9e> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://astrea.linkeddata.es/shapes#ffa627c90b2f93431bad38fc95750b9e> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyShape> .
+<https://astrea.linkeddata.es/shapes#ffa627c90b2f93431bad38fc95750b9e> <http://www.w3.org/2000/01/rdf-schema#label> "location" .
+<https://astrea.linkeddata.es/shapes#ffa627c90b2f93431bad38fc95750b9e> <http://www.w3.org/ns/shacl#class> <http://www.w3.org/2003/01/geo/wgs84_pos#Point> .
+<https://astrea.linkeddata.es/shapes#ffa627c90b2f93431bad38fc95750b9e> <http://www.w3.org/ns/shacl#name> "location" .
+<https://astrea.linkeddata.es/shapes#ffa627c90b2f93431bad38fc95750b9e> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#BlankNodeOrIRI> .
+<https://astrea.linkeddata.es/shapes#ffa627c90b2f93431bad38fc95750b9e> <http://www.w3.org/ns/shacl#path> <http://www.w3.org/2003/01/geo/wgs84_pos#location> .
+# 
+# https://astrea.linkeddata.es/shapes#0a5a2b2481cb41661d0b8bc1116171b8
+<https://astrea.linkeddata.es/shapes#0a5a2b2481cb41661d0b8bc1116171b8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://astrea.linkeddata.es/shapes#0a5a2b2481cb41661d0b8bc1116171b8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyShape> .
+<https://astrea.linkeddata.es/shapes#0a5a2b2481cb41661d0b8bc1116171b8> <http://www.w3.org/2000/01/rdf-schema#label> "date last status update" .
+<https://astrea.linkeddata.es/shapes#0a5a2b2481cb41661d0b8bc1116171b8> <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://astrea.linkeddata.es/shapes#0a5a2b2481cb41661d0b8bc1116171b8> <http://www.w3.org/ns/shacl#name> "date last status update" .
+<https://astrea.linkeddata.es/shapes#0a5a2b2481cb41661d0b8bc1116171b8> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#Literal> .
+<https://astrea.linkeddata.es/shapes#0a5a2b2481cb41661d0b8bc1116171b8> <http://www.w3.org/ns/shacl#path> <http://www.owl-ontologies.com/adapters#dateLastStatusUpdate> .
+<https://astrea.linkeddata.es/shapes#0a5a2b2481cb41661d0b8bc1116171b8> <http://www.w3.org/ns/shacl#pattern> "-?([1-9][0-9]{3,}|0[0-9]{3})-(0[1-9]|1[0-2])-(0[1-9]|[12][0-9]|3[01])T(([01][0-9]|2[0-3]):[0-5][0-9]:[0-5][0-9](\\.[0-9]+)?|(24:00:00(\\.0+)?))(Z|(\\+|-)((0[0-9]|1[0-3]):[0-5][0-9]|14:00))?" .
+# 
+# https://astrea.linkeddata.es/shapes#0df94f6b2161b19c9c9b203291721e6d
+<https://astrea.linkeddata.es/shapes#0df94f6b2161b19c9c9b203291721e6d> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://astrea.linkeddata.es/shapes#0df94f6b2161b19c9c9b203291721e6d> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyShape> .
+<https://astrea.linkeddata.es/shapes#0df94f6b2161b19c9c9b203291721e6d> <http://www.w3.org/2000/01/rdf-schema#label> "number of points" .
+<https://astrea.linkeddata.es/shapes#0df94f6b2161b19c9c9b203291721e6d> <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/2001/XMLSchema#integer> .
+<https://astrea.linkeddata.es/shapes#0df94f6b2161b19c9c9b203291721e6d> <http://www.w3.org/ns/shacl#name> "number of points" .
+<https://astrea.linkeddata.es/shapes#0df94f6b2161b19c9c9b203291721e6d> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#Literal> .
+<https://astrea.linkeddata.es/shapes#0df94f6b2161b19c9c9b203291721e6d> <http://www.w3.org/ns/shacl#path> <https://auroral.iot.linkeddata.es/def/electrical-vehicle#numberOfPoints> .
+<https://astrea.linkeddata.es/shapes#0df94f6b2161b19c9c9b203291721e6d> <http://www.w3.org/ns/shacl#pattern> "[\\-+]?[0-9]+" .
+# 
+# https://astrea.linkeddata.es/shapes#05d9d9e375c834dcf0129f93ebf9eb61
+<https://astrea.linkeddata.es/shapes#05d9d9e375c834dcf0129f93ebf9eb61> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://astrea.linkeddata.es/shapes#05d9d9e375c834dcf0129f93ebf9eb61> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyShape> .
+<https://astrea.linkeddata.es/shapes#05d9d9e375c834dcf0129f93ebf9eb61> <http://www.w3.org/2000/01/rdf-schema#label> "is access key required" .
+<https://astrea.linkeddata.es/shapes#05d9d9e375c834dcf0129f93ebf9eb61> <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/2001/XMLSchema#boolean> .
+<https://astrea.linkeddata.es/shapes#05d9d9e375c834dcf0129f93ebf9eb61> <http://www.w3.org/ns/shacl#name> "is access key required" .
+<https://astrea.linkeddata.es/shapes#05d9d9e375c834dcf0129f93ebf9eb61> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#Literal> .
+<https://astrea.linkeddata.es/shapes#05d9d9e375c834dcf0129f93ebf9eb61> <http://www.w3.org/ns/shacl#path> <https://auroral.iot.linkeddata.es/def/electrical-vehicle#isAccessKeyRequired> .
+<https://astrea.linkeddata.es/shapes#05d9d9e375c834dcf0129f93ebf9eb61> <http://www.w3.org/ns/shacl#pattern> "true|false|0|1" .
+# 
+# https://astrea.linkeddata.es/shapes#0705d79d023ad5774286503e07efc599
+<https://astrea.linkeddata.es/shapes#0705d79d023ad5774286503e07efc599> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://astrea.linkeddata.es/shapes#0705d79d023ad5774286503e07efc599> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyShape> .
+<https://astrea.linkeddata.es/shapes#0705d79d023ad5774286503e07efc599> <http://www.w3.org/2000/01/rdf-schema#label> "has operator" .
+<https://astrea.linkeddata.es/shapes#0705d79d023ad5774286503e07efc599> <http://www.w3.org/ns/shacl#class> <https://auroral.iot.linkeddata.es/def/cell#Operator> .
+<https://astrea.linkeddata.es/shapes#0705d79d023ad5774286503e07efc599> <http://www.w3.org/ns/shacl#name> "has operator" .
+<https://astrea.linkeddata.es/shapes#0705d79d023ad5774286503e07efc599> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#BlankNodeOrIRI> .
+<https://astrea.linkeddata.es/shapes#0705d79d023ad5774286503e07efc599> <http://www.w3.org/ns/shacl#path> <https://auroral.iot.linkeddata.es/def/cell#hasOperator> .
+# 
+# https://astrea.linkeddata.es/shapes#1bebeb416cd25031a409be367b8ea578
+<https://astrea.linkeddata.es/shapes#1bebeb416cd25031a409be367b8ea578> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://astrea.linkeddata.es/shapes#1bebeb416cd25031a409be367b8ea578> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyShape> .
+<https://astrea.linkeddata.es/shapes#1bebeb416cd25031a409be367b8ea578> <http://www.w3.org/2000/01/rdf-schema#label> "operator name" .
+<https://astrea.linkeddata.es/shapes#1bebeb416cd25031a409be367b8ea578> <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/2001/XMLSchema#string> .
+<https://astrea.linkeddata.es/shapes#1bebeb416cd25031a409be367b8ea578> <http://www.w3.org/ns/shacl#name> "operator name" .
+<https://astrea.linkeddata.es/shapes#1bebeb416cd25031a409be367b8ea578> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#Literal> .
+<https://astrea.linkeddata.es/shapes#1bebeb416cd25031a409be367b8ea578> <http://www.w3.org/ns/shacl#path> <https://auroral.iot.linkeddata.es/def/cell#operatorName> .
+<https://astrea.linkeddata.es/shapes#1bebeb416cd25031a409be367b8ea578> <http://www.w3.org/ns/shacl#pattern> ".*" .
+# 
+# https://astrea.linkeddata.es/shapes#10b76d945759c3a36c80ccccff99cd5c
+<https://astrea.linkeddata.es/shapes#10b76d945759c3a36c80ccccff99cd5c> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://astrea.linkeddata.es/shapes#10b76d945759c3a36c80ccccff99cd5c> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#NodeShape> .
+<https://astrea.linkeddata.es/shapes#10b76d945759c3a36c80ccccff99cd5c> <http://www.w3.org/2000/01/rdf-schema#label> "Status Property" .
+<https://astrea.linkeddata.es/shapes#10b76d945759c3a36c80ccccff99cd5c> <http://www.w3.org/ns/shacl#name> "Status Property" .
+<https://astrea.linkeddata.es/shapes#10b76d945759c3a36c80ccccff99cd5c> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<https://astrea.linkeddata.es/shapes#10b76d945759c3a36c80ccccff99cd5c> <http://www.w3.org/ns/shacl#property> <https://astrea.linkeddata.es/shapes#d80e184c3ea6af0bd1f812eed7127f23> .
+<https://astrea.linkeddata.es/shapes#10b76d945759c3a36c80ccccff99cd5c> <http://www.w3.org/ns/shacl#property> <https://astrea.linkeddata.es/shapes#0a5a2b2481cb41661d0b8bc1116171b8> .
+<https://astrea.linkeddata.es/shapes#10b76d945759c3a36c80ccccff99cd5c> <http://www.w3.org/ns/shacl#targetClass> <https://auroral.iot.linkeddata.es/def/adapters#StatusProperty> .
+# 
+# https://astrea.linkeddata.es/shapes#15f4985334b92b193e1650b4a34b5043
+<https://astrea.linkeddata.es/shapes#15f4985334b92b193e1650b4a34b5043> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://astrea.linkeddata.es/shapes#15f4985334b92b193e1650b4a34b5043> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyShape> .
+<https://astrea.linkeddata.es/shapes#15f4985334b92b193e1650b4a34b5043> <http://www.w3.org/2000/01/rdf-schema#label> "is private individual" .
+<https://astrea.linkeddata.es/shapes#15f4985334b92b193e1650b4a34b5043> <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/2001/XMLSchema#boolean> .
+<https://astrea.linkeddata.es/shapes#15f4985334b92b193e1650b4a34b5043> <http://www.w3.org/ns/shacl#name> "is private individual" .
+<https://astrea.linkeddata.es/shapes#15f4985334b92b193e1650b4a34b5043> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#Literal> .
+<https://astrea.linkeddata.es/shapes#15f4985334b92b193e1650b4a34b5043> <http://www.w3.org/ns/shacl#path> <https://auroral.iot.linkeddata.es/def/electrical-vehicle#isPrivateIndividual> .
+<https://astrea.linkeddata.es/shapes#15f4985334b92b193e1650b4a34b5043> <http://www.w3.org/ns/shacl#pattern> "true|false|0|1" .
+# 
+# https://astrea.linkeddata.es/shapes#172382a059e61f60b739a6e8d904fff3
+<https://astrea.linkeddata.es/shapes#172382a059e61f60b739a6e8d904fff3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://astrea.linkeddata.es/shapes#172382a059e61f60b739a6e8d904fff3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyShape> .
+<https://astrea.linkeddata.es/shapes#172382a059e61f60b739a6e8d904fff3> <http://www.w3.org/2000/01/rdf-schema#label> "lat" .
+<https://astrea.linkeddata.es/shapes#172382a059e61f60b739a6e8d904fff3> <http://www.w3.org/ns/shacl#name> "lat" .
+<https://astrea.linkeddata.es/shapes#172382a059e61f60b739a6e8d904fff3> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#Literal> .
+<https://astrea.linkeddata.es/shapes#172382a059e61f60b739a6e8d904fff3> <http://www.w3.org/ns/shacl#path> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> .
+# 
+# https://astrea.linkeddata.es/shapes#2f49aa5cf15f41aad07cbde888edd144
+<https://astrea.linkeddata.es/shapes#2f49aa5cf15f41aad07cbde888edd144> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://astrea.linkeddata.es/shapes#2f49aa5cf15f41aad07cbde888edd144> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyShape> .
+<https://astrea.linkeddata.es/shapes#2f49aa5cf15f41aad07cbde888edd144> <http://www.w3.org/2000/01/rdf-schema#label> "description" .
+<https://astrea.linkeddata.es/shapes#2f49aa5cf15f41aad07cbde888edd144> <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/2001/XMLSchema#string> .
+<https://astrea.linkeddata.es/shapes#2f49aa5cf15f41aad07cbde888edd144> <http://www.w3.org/ns/shacl#name> "description" .
+<https://astrea.linkeddata.es/shapes#2f49aa5cf15f41aad07cbde888edd144> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#Literal> .
+<https://astrea.linkeddata.es/shapes#2f49aa5cf15f41aad07cbde888edd144> <http://www.w3.org/ns/shacl#path> <https://auroral.iot.linkeddata.es/def/electrical-vehicle#description> .
+<https://astrea.linkeddata.es/shapes#2f49aa5cf15f41aad07cbde888edd144> <http://www.w3.org/ns/shacl#pattern> ".*" .
+# 
+# https://astrea.linkeddata.es/shapes#22f901ebc6b4bf7027c8f621f8bc4882
+<https://astrea.linkeddata.es/shapes#22f901ebc6b4bf7027c8f621f8bc4882> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://astrea.linkeddata.es/shapes#22f901ebc6b4bf7027c8f621f8bc4882> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#NodeShape> .
+<https://astrea.linkeddata.es/shapes#22f901ebc6b4bf7027c8f621f8bc4882> <http://www.w3.org/2000/01/rdf-schema#label> "Country" .
+<https://astrea.linkeddata.es/shapes#22f901ebc6b4bf7027c8f621f8bc4882> <http://www.w3.org/ns/shacl#name> "Country" .
+<https://astrea.linkeddata.es/shapes#22f901ebc6b4bf7027c8f621f8bc4882> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<https://astrea.linkeddata.es/shapes#22f901ebc6b4bf7027c8f621f8bc4882> <http://www.w3.org/ns/shacl#targetClass> <https://auroral.iot.linkeddata.es/def/core#Country> .
+# 
+# https://astrea.linkeddata.es/shapes#235ca8ea5362df53f4434ff263e33129
+<https://astrea.linkeddata.es/shapes#235ca8ea5362df53f4434ff263e33129> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://astrea.linkeddata.es/shapes#235ca8ea5362df53f4434ff263e33129> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyShape> .
+<https://astrea.linkeddata.es/shapes#235ca8ea5362df53f4434ff263e33129> <http://www.w3.org/2000/01/rdf-schema#label> "has data provider" .
+<https://astrea.linkeddata.es/shapes#235ca8ea5362df53f4434ff263e33129> <http://www.w3.org/ns/shacl#class> <https://auroral.iot.linkeddata.es/def/electrical-vehicle#DataProvider> .
+<https://astrea.linkeddata.es/shapes#235ca8ea5362df53f4434ff263e33129> <http://www.w3.org/ns/shacl#name> "has data provider" .
+<https://astrea.linkeddata.es/shapes#235ca8ea5362df53f4434ff263e33129> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#BlankNodeOrIRI> .
+<https://astrea.linkeddata.es/shapes#235ca8ea5362df53f4434ff263e33129> <http://www.w3.org/ns/shacl#path> <https://auroral.iot.linkeddata.es/def/electrical-vehicle#hasDataProvider> .
+# 
+# https://astrea.linkeddata.es/shapes#3ef793712378e097aac823894a277e63
+<https://astrea.linkeddata.es/shapes#3ef793712378e097aac823894a277e63> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://astrea.linkeddata.es/shapes#3ef793712378e097aac823894a277e63> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#NodeShape> .
+<https://astrea.linkeddata.es/shapes#3ef793712378e097aac823894a277e63> <http://www.w3.org/2000/01/rdf-schema#label> "Point" .
+<https://astrea.linkeddata.es/shapes#3ef793712378e097aac823894a277e63> <http://www.w3.org/ns/shacl#name> "Point" .
+<https://astrea.linkeddata.es/shapes#3ef793712378e097aac823894a277e63> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<https://astrea.linkeddata.es/shapes#3ef793712378e097aac823894a277e63> <http://www.w3.org/ns/shacl#targetClass> <http://www.w3.org/2003/01/geo/wgs84_pos#Point> .
+# 
+# https://astrea.linkeddata.es/shapes#3043636d2ac64366bd20a2638476aae0
+<https://astrea.linkeddata.es/shapes#3043636d2ac64366bd20a2638476aae0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://astrea.linkeddata.es/shapes#3043636d2ac64366bd20a2638476aae0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyShape> .
+<https://astrea.linkeddata.es/shapes#3043636d2ac64366bd20a2638476aae0> <http://www.w3.org/2000/01/rdf-schema#label> "belongs to" .
+<https://astrea.linkeddata.es/shapes#3043636d2ac64366bd20a2638476aae0> <http://www.w3.org/ns/shacl#class> <https://auroral.iot.linkeddata.es/def/core#Country> .
+<https://astrea.linkeddata.es/shapes#3043636d2ac64366bd20a2638476aae0> <http://www.w3.org/ns/shacl#name> "belongs to" .
+<https://astrea.linkeddata.es/shapes#3043636d2ac64366bd20a2638476aae0> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#BlankNodeOrIRI> .
+<https://astrea.linkeddata.es/shapes#3043636d2ac64366bd20a2638476aae0> <http://www.w3.org/ns/shacl#path> <https://auroral.iot.linkeddata.es/def/electrical-vehicle#belongsTo> .
+# 
+# https://astrea.linkeddata.es/shapes#311b01211325f60c654931a9614abba2
+<https://astrea.linkeddata.es/shapes#311b01211325f60c654931a9614abba2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://astrea.linkeddata.es/shapes#311b01211325f60c654931a9614abba2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyShape> .
+<https://astrea.linkeddata.es/shapes#311b01211325f60c654931a9614abba2> <http://www.w3.org/2000/01/rdf-schema#label> "quantity" .
+<https://astrea.linkeddata.es/shapes#311b01211325f60c654931a9614abba2> <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/2001/XMLSchema#integer> .
+<https://astrea.linkeddata.es/shapes#311b01211325f60c654931a9614abba2> <http://www.w3.org/ns/shacl#name> "quantity" .
+<https://astrea.linkeddata.es/shapes#311b01211325f60c654931a9614abba2> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#Literal> .
+<https://astrea.linkeddata.es/shapes#311b01211325f60c654931a9614abba2> <http://www.w3.org/ns/shacl#path> <https://auroral.iot.linkeddata.es/def/electrical-vehicle#quantity> .
+<https://astrea.linkeddata.es/shapes#311b01211325f60c654931a9614abba2> <http://www.w3.org/ns/shacl#pattern> "[\\-+]?[0-9]+" .
+# 
+# https://astrea.linkeddata.es/shapes#326bd410f1b9831caf3b44b744bebc8b
+<https://astrea.linkeddata.es/shapes#326bd410f1b9831caf3b44b744bebc8b> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://astrea.linkeddata.es/shapes#326bd410f1b9831caf3b44b744bebc8b> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyShape> .
+<https://astrea.linkeddata.es/shapes#326bd410f1b9831caf3b44b744bebc8b> <http://www.w3.org/2000/01/rdf-schema#label> "phone secondary contact" .
+<https://astrea.linkeddata.es/shapes#326bd410f1b9831caf3b44b744bebc8b> <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/2001/XMLSchema#string> .
+<https://astrea.linkeddata.es/shapes#326bd410f1b9831caf3b44b744bebc8b> <http://www.w3.org/ns/shacl#name> "phone secondary contact" .
+<https://astrea.linkeddata.es/shapes#326bd410f1b9831caf3b44b744bebc8b> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#Literal> .
+<https://astrea.linkeddata.es/shapes#326bd410f1b9831caf3b44b744bebc8b> <http://www.w3.org/ns/shacl#path> <https://auroral.iot.linkeddata.es/def/electrical-vehicle#phoneSecondaryContact> .
+<https://astrea.linkeddata.es/shapes#326bd410f1b9831caf3b44b744bebc8b> <http://www.w3.org/ns/shacl#pattern> ".*" .
+# 
+# https://astrea.linkeddata.es/shapes#33f4d07a088d7ef6b3ec5fccf481b18a
+<https://astrea.linkeddata.es/shapes#33f4d07a088d7ef6b3ec5fccf481b18a> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://astrea.linkeddata.es/shapes#33f4d07a088d7ef6b3ec5fccf481b18a> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyShape> .
+<https://astrea.linkeddata.es/shapes#33f4d07a088d7ef6b3ec5fccf481b18a> <http://www.w3.org/2000/01/rdf-schema#label> "is obsolete" .
+<https://astrea.linkeddata.es/shapes#33f4d07a088d7ef6b3ec5fccf481b18a> <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/2001/XMLSchema#boolean> .
+<https://astrea.linkeddata.es/shapes#33f4d07a088d7ef6b3ec5fccf481b18a> <http://www.w3.org/ns/shacl#name> "is obsolete" .
+<https://astrea.linkeddata.es/shapes#33f4d07a088d7ef6b3ec5fccf481b18a> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#Literal> .
+<https://astrea.linkeddata.es/shapes#33f4d07a088d7ef6b3ec5fccf481b18a> <http://www.w3.org/ns/shacl#path> <https://auroral.iot.linkeddata.es/def/electrical-vehicle#isObsolete> .
+<https://astrea.linkeddata.es/shapes#33f4d07a088d7ef6b3ec5fccf481b18a> <http://www.w3.org/ns/shacl#pattern> "true|false|0|1" .
+# 
+# https://astrea.linkeddata.es/shapes#334f2a041d70d124206e6dcd74877622
+<https://astrea.linkeddata.es/shapes#334f2a041d70d124206e6dcd74877622> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://astrea.linkeddata.es/shapes#334f2a041d70d124206e6dcd74877622> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyShape> .
+<https://astrea.linkeddata.es/shapes#334f2a041d70d124206e6dcd74877622> <http://www.w3.org/2000/01/rdf-schema#label> "usage type" .
+<https://astrea.linkeddata.es/shapes#334f2a041d70d124206e6dcd74877622> <http://www.w3.org/ns/shacl#class> <https://auroral.iot.linkeddata.es/def/electrical-vehicle#UsageType> .
+<https://astrea.linkeddata.es/shapes#334f2a041d70d124206e6dcd74877622> <http://www.w3.org/ns/shacl#name> "usage type" .
+<https://astrea.linkeddata.es/shapes#334f2a041d70d124206e6dcd74877622> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#BlankNodeOrIRI> .
+<https://astrea.linkeddata.es/shapes#334f2a041d70d124206e6dcd74877622> <http://www.w3.org/ns/shacl#path> <https://auroral.iot.linkeddata.es/def/electrical-vehicle#usageType> .
+# 
+# https://astrea.linkeddata.es/shapes#36245374f10c92af9a0fb4f241aa6d69
+<https://astrea.linkeddata.es/shapes#36245374f10c92af9a0fb4f241aa6d69> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://astrea.linkeddata.es/shapes#36245374f10c92af9a0fb4f241aa6d69> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#NodeShape> .
+<https://astrea.linkeddata.es/shapes#36245374f10c92af9a0fb4f241aa6d69> <http://www.w3.org/2000/01/rdf-schema#label> "Device" .
+<https://astrea.linkeddata.es/shapes#36245374f10c92af9a0fb4f241aa6d69> <http://www.w3.org/ns/shacl#name> "Device" .
+<https://astrea.linkeddata.es/shapes#36245374f10c92af9a0fb4f241aa6d69> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<https://astrea.linkeddata.es/shapes#36245374f10c92af9a0fb4f241aa6d69> <http://www.w3.org/ns/shacl#property> <https://astrea.linkeddata.es/shapes#e2c86d5702cb1015d25ea2d6e92413c3> .
+<https://astrea.linkeddata.es/shapes#36245374f10c92af9a0fb4f241aa6d69> <http://www.w3.org/ns/shacl#targetClass> <https://auroral.iot.linkeddata.es/def/core#Device> .
+# 
+# https://astrea.linkeddata.es/shapes#4e6ed6d3c750227be4e29309171fe192
+<https://astrea.linkeddata.es/shapes#4e6ed6d3c750227be4e29309171fe192> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://astrea.linkeddata.es/shapes#4e6ed6d3c750227be4e29309171fe192> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#NodeShape> .
+<https://astrea.linkeddata.es/shapes#4e6ed6d3c750227be4e29309171fe192> <http://www.w3.org/2000/01/rdf-schema#label> "E V Charger" .
+<https://astrea.linkeddata.es/shapes#4e6ed6d3c750227be4e29309171fe192> <http://www.w3.org/ns/shacl#name> "E V Charger" .
+<https://astrea.linkeddata.es/shapes#4e6ed6d3c750227be4e29309171fe192> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<https://astrea.linkeddata.es/shapes#4e6ed6d3c750227be4e29309171fe192> <http://www.w3.org/ns/shacl#property> <https://astrea.linkeddata.es/shapes#b4a3c10e55794d1f115045ed96a6c6d7> .
+<https://astrea.linkeddata.es/shapes#4e6ed6d3c750227be4e29309171fe192> <http://www.w3.org/ns/shacl#property> <https://astrea.linkeddata.es/shapes#0df94f6b2161b19c9c9b203291721e6d> .
+<https://astrea.linkeddata.es/shapes#4e6ed6d3c750227be4e29309171fe192> <http://www.w3.org/ns/shacl#property> <https://astrea.linkeddata.es/shapes#0705d79d023ad5774286503e07efc599> .
+<https://astrea.linkeddata.es/shapes#4e6ed6d3c750227be4e29309171fe192> <http://www.w3.org/ns/shacl#property> <https://astrea.linkeddata.es/shapes#235ca8ea5362df53f4434ff263e33129> .
+<https://astrea.linkeddata.es/shapes#4e6ed6d3c750227be4e29309171fe192> <http://www.w3.org/ns/shacl#property> <https://astrea.linkeddata.es/shapes#334f2a041d70d124206e6dcd74877622> .
+<https://astrea.linkeddata.es/shapes#4e6ed6d3c750227be4e29309171fe192> <http://www.w3.org/ns/shacl#property> <https://astrea.linkeddata.es/shapes#76f1d52b5a38bfe9f4eaebe43b1e10ef> .
+<https://astrea.linkeddata.es/shapes#4e6ed6d3c750227be4e29309171fe192> <http://www.w3.org/ns/shacl#property> <https://astrea.linkeddata.es/shapes#93d5dfa6b64c3a6af2863cd7ee045c6e> .
+<https://astrea.linkeddata.es/shapes#4e6ed6d3c750227be4e29309171fe192> <http://www.w3.org/ns/shacl#property> <https://astrea.linkeddata.es/shapes#97dab295f4f9f7d800f60764c90d2b18> .
+<https://astrea.linkeddata.es/shapes#4e6ed6d3c750227be4e29309171fe192> <http://www.w3.org/ns/shacl#targetClass> <https://auroral.iot.linkeddata.es/def/electrical-vehicle#EVCharger> .
+# 
+# https://astrea.linkeddata.es/shapes#46614c0f2a61ba62db337ce8a0fce816
+<https://astrea.linkeddata.es/shapes#46614c0f2a61ba62db337ce8a0fce816> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://astrea.linkeddata.es/shapes#46614c0f2a61ba62db337ce8a0fce816> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#NodeShape> .
+<https://astrea.linkeddata.es/shapes#46614c0f2a61ba62db337ce8a0fce816> <http://www.w3.org/2000/01/rdf-schema#label> "Connection Type" .
+<https://astrea.linkeddata.es/shapes#46614c0f2a61ba62db337ce8a0fce816> <http://www.w3.org/ns/shacl#name> "Connection Type" .
+<https://astrea.linkeddata.es/shapes#46614c0f2a61ba62db337ce8a0fce816> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<https://astrea.linkeddata.es/shapes#46614c0f2a61ba62db337ce8a0fce816> <http://www.w3.org/ns/shacl#property> <https://astrea.linkeddata.es/shapes#f32ac463fcbe5610fb0a3c3f8c41d67b> .
+<https://astrea.linkeddata.es/shapes#46614c0f2a61ba62db337ce8a0fce816> <http://www.w3.org/ns/shacl#property> <https://astrea.linkeddata.es/shapes#33f4d07a088d7ef6b3ec5fccf481b18a> .
+<https://astrea.linkeddata.es/shapes#46614c0f2a61ba62db337ce8a0fce816> <http://www.w3.org/ns/shacl#property> <https://astrea.linkeddata.es/shapes#6758f1d4a74780ad9c675cfca7e24a4d> .
+<https://astrea.linkeddata.es/shapes#46614c0f2a61ba62db337ce8a0fce816> <http://www.w3.org/ns/shacl#targetClass> <https://auroral.iot.linkeddata.es/def/electrical-vehicle#ConnectorType> .
+# 
+# https://astrea.linkeddata.es/shapes#5f7c3b3168fa552456788f72dd1a846b
+<https://astrea.linkeddata.es/shapes#5f7c3b3168fa552456788f72dd1a846b> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://astrea.linkeddata.es/shapes#5f7c3b3168fa552456788f72dd1a846b> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#NodeShape> .
+<https://astrea.linkeddata.es/shapes#5f7c3b3168fa552456788f72dd1a846b> <http://www.w3.org/2000/01/rdf-schema#label> "Usage Type" .
+<https://astrea.linkeddata.es/shapes#5f7c3b3168fa552456788f72dd1a846b> <http://www.w3.org/ns/shacl#name> "Usage Type" .
+<https://astrea.linkeddata.es/shapes#5f7c3b3168fa552456788f72dd1a846b> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<https://astrea.linkeddata.es/shapes#5f7c3b3168fa552456788f72dd1a846b> <http://www.w3.org/ns/shacl#property> <https://astrea.linkeddata.es/shapes#05d9d9e375c834dcf0129f93ebf9eb61> .
+<https://astrea.linkeddata.es/shapes#5f7c3b3168fa552456788f72dd1a846b> <http://www.w3.org/ns/shacl#property> <https://astrea.linkeddata.es/shapes#794c3316e8847ea307cdcf62e6d04863> .
+<https://astrea.linkeddata.es/shapes#5f7c3b3168fa552456788f72dd1a846b> <http://www.w3.org/ns/shacl#property> <https://astrea.linkeddata.es/shapes#9e113a1551a8f7dd62d241baaeb204c7> .
+<https://astrea.linkeddata.es/shapes#5f7c3b3168fa552456788f72dd1a846b> <http://www.w3.org/ns/shacl#property> <https://astrea.linkeddata.es/shapes#90c2ded574691578345c6382c4f2409b> .
+<https://astrea.linkeddata.es/shapes#5f7c3b3168fa552456788f72dd1a846b> <http://www.w3.org/ns/shacl#targetClass> <https://auroral.iot.linkeddata.es/def/electrical-vehicle#UsageType> .
+# 
+# https://astrea.linkeddata.es/shapes#519bf78429359ffc2e439c7e0c1fc12c
+<https://astrea.linkeddata.es/shapes#519bf78429359ffc2e439c7e0c1fc12c> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://astrea.linkeddata.es/shapes#519bf78429359ffc2e439c7e0c1fc12c> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyShape> .
+<https://astrea.linkeddata.es/shapes#519bf78429359ffc2e439c7e0c1fc12c> <http://www.w3.org/2000/01/rdf-schema#label> "booking u r l" .
+<https://astrea.linkeddata.es/shapes#519bf78429359ffc2e439c7e0c1fc12c> <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/2001/XMLSchema#anyURI> .
+<https://astrea.linkeddata.es/shapes#519bf78429359ffc2e439c7e0c1fc12c> <http://www.w3.org/ns/shacl#name> "booking u r l" .
+<https://astrea.linkeddata.es/shapes#519bf78429359ffc2e439c7e0c1fc12c> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#Literal> .
+<https://astrea.linkeddata.es/shapes#519bf78429359ffc2e439c7e0c1fc12c> <http://www.w3.org/ns/shacl#path> <https://auroral.iot.linkeddata.es/def/electrical-vehicle#bookingURL> .
+<https://astrea.linkeddata.es/shapes#519bf78429359ffc2e439c7e0c1fc12c> <http://www.w3.org/ns/shacl#pattern> "^(([^:/?#]+):)?(//([^/?#]*))?([^?#]*)(\\?([^#]*))?(#(.*))?" .
+# 
+# https://astrea.linkeddata.es/shapes#6d9c665a4919723ed71aa11a8838e41e
+<https://astrea.linkeddata.es/shapes#6d9c665a4919723ed71aa11a8838e41e> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://astrea.linkeddata.es/shapes#6d9c665a4919723ed71aa11a8838e41e> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyShape> .
+<https://astrea.linkeddata.es/shapes#6d9c665a4919723ed71aa11a8838e41e> <http://www.w3.org/2000/01/rdf-schema#label> "access comment" .
+<https://astrea.linkeddata.es/shapes#6d9c665a4919723ed71aa11a8838e41e> <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/2001/XMLSchema#string> .
+<https://astrea.linkeddata.es/shapes#6d9c665a4919723ed71aa11a8838e41e> <http://www.w3.org/ns/shacl#name> "access comment" .
+<https://astrea.linkeddata.es/shapes#6d9c665a4919723ed71aa11a8838e41e> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#Literal> .
+<https://astrea.linkeddata.es/shapes#6d9c665a4919723ed71aa11a8838e41e> <http://www.w3.org/ns/shacl#path> <https://auroral.iot.linkeddata.es/def/electrical-vehicle#accessComment> .
+<https://astrea.linkeddata.es/shapes#6d9c665a4919723ed71aa11a8838e41e> <http://www.w3.org/ns/shacl#pattern> ".*" .
+# 
+# https://astrea.linkeddata.es/shapes#6758f1d4a74780ad9c675cfca7e24a4d
+<https://astrea.linkeddata.es/shapes#6758f1d4a74780ad9c675cfca7e24a4d> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://astrea.linkeddata.es/shapes#6758f1d4a74780ad9c675cfca7e24a4d> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyShape> .
+<https://astrea.linkeddata.es/shapes#6758f1d4a74780ad9c675cfca7e24a4d> <http://www.w3.org/2000/01/rdf-schema#label> "formal name" .
+<https://astrea.linkeddata.es/shapes#6758f1d4a74780ad9c675cfca7e24a4d> <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/2001/XMLSchema#string> .
+<https://astrea.linkeddata.es/shapes#6758f1d4a74780ad9c675cfca7e24a4d> <http://www.w3.org/ns/shacl#name> "formal name" .
+<https://astrea.linkeddata.es/shapes#6758f1d4a74780ad9c675cfca7e24a4d> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#Literal> .
+<https://astrea.linkeddata.es/shapes#6758f1d4a74780ad9c675cfca7e24a4d> <http://www.w3.org/ns/shacl#path> <https://auroral.iot.linkeddata.es/def/electrical-vehicle#formalName> .
+<https://astrea.linkeddata.es/shapes#6758f1d4a74780ad9c675cfca7e24a4d> <http://www.w3.org/ns/shacl#pattern> ".*" .
+# 
+# https://astrea.linkeddata.es/shapes#71f040670d4b9a4a887778511e7d8529
+<https://astrea.linkeddata.es/shapes#71f040670d4b9a4a887778511e7d8529> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://astrea.linkeddata.es/shapes#71f040670d4b9a4a887778511e7d8529> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyShape> .
+<https://astrea.linkeddata.es/shapes#71f040670d4b9a4a887778511e7d8529> <http://www.w3.org/2000/01/rdf-schema#label> "phone primary contact" .
+<https://astrea.linkeddata.es/shapes#71f040670d4b9a4a887778511e7d8529> <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/2001/XMLSchema#string> .
+<https://astrea.linkeddata.es/shapes#71f040670d4b9a4a887778511e7d8529> <http://www.w3.org/ns/shacl#name> "phone primary contact" .
+<https://astrea.linkeddata.es/shapes#71f040670d4b9a4a887778511e7d8529> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#Literal> .
+<https://astrea.linkeddata.es/shapes#71f040670d4b9a4a887778511e7d8529> <http://www.w3.org/ns/shacl#path> <https://auroral.iot.linkeddata.es/def/electrical-vehicle#phonePrimaryContact> .
+<https://astrea.linkeddata.es/shapes#71f040670d4b9a4a887778511e7d8529> <http://www.w3.org/ns/shacl#pattern> ".*" .
+# 
+# https://astrea.linkeddata.es/shapes#76f1d52b5a38bfe9f4eaebe43b1e10ef
+<https://astrea.linkeddata.es/shapes#76f1d52b5a38bfe9f4eaebe43b1e10ef> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://astrea.linkeddata.es/shapes#76f1d52b5a38bfe9f4eaebe43b1e10ef> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyShape> .
+<https://astrea.linkeddata.es/shapes#76f1d52b5a38bfe9f4eaebe43b1e10ef> <http://www.w3.org/2000/01/rdf-schema#label> "has connection" .
+<https://astrea.linkeddata.es/shapes#76f1d52b5a38bfe9f4eaebe43b1e10ef> <http://www.w3.org/ns/shacl#class> <https://auroral.iot.linkeddata.es/def/electrical-vehicle#Connector> .
+<https://astrea.linkeddata.es/shapes#76f1d52b5a38bfe9f4eaebe43b1e10ef> <http://www.w3.org/ns/shacl#name> "has connection" .
+<https://astrea.linkeddata.es/shapes#76f1d52b5a38bfe9f4eaebe43b1e10ef> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#BlankNodeOrIRI> .
+<https://astrea.linkeddata.es/shapes#76f1d52b5a38bfe9f4eaebe43b1e10ef> <http://www.w3.org/ns/shacl#path> <https://auroral.iot.linkeddata.es/def/electrical-vehicle#hasConnection> .
+# 
+# https://astrea.linkeddata.es/shapes#77dfff49ade95cd0918fbee998b3d636
+<https://astrea.linkeddata.es/shapes#77dfff49ade95cd0918fbee998b3d636> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://astrea.linkeddata.es/shapes#77dfff49ade95cd0918fbee998b3d636> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyShape> .
+<https://astrea.linkeddata.es/shapes#77dfff49ade95cd0918fbee998b3d636> <http://www.w3.org/2000/01/rdf-schema#label> "address" .
+<https://astrea.linkeddata.es/shapes#77dfff49ade95cd0918fbee998b3d636> <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/2001/XMLSchema#string> .
+<https://astrea.linkeddata.es/shapes#77dfff49ade95cd0918fbee998b3d636> <http://www.w3.org/ns/shacl#name> "address" .
+<https://astrea.linkeddata.es/shapes#77dfff49ade95cd0918fbee998b3d636> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#Literal> .
+<https://astrea.linkeddata.es/shapes#77dfff49ade95cd0918fbee998b3d636> <http://www.w3.org/ns/shacl#path> <https://auroral.iot.linkeddata.es/def/car-booking#address> .
+<https://astrea.linkeddata.es/shapes#77dfff49ade95cd0918fbee998b3d636> <http://www.w3.org/ns/shacl#pattern> ".*" .
+# 
+# https://astrea.linkeddata.es/shapes#794c3316e8847ea307cdcf62e6d04863
+<https://astrea.linkeddata.es/shapes#794c3316e8847ea307cdcf62e6d04863> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://astrea.linkeddata.es/shapes#794c3316e8847ea307cdcf62e6d04863> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyShape> .
+<https://astrea.linkeddata.es/shapes#794c3316e8847ea307cdcf62e6d04863> <http://www.w3.org/2000/01/rdf-schema#label> "title" .
+<https://astrea.linkeddata.es/shapes#794c3316e8847ea307cdcf62e6d04863> <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/2001/XMLSchema#string> .
+<https://astrea.linkeddata.es/shapes#794c3316e8847ea307cdcf62e6d04863> <http://www.w3.org/ns/shacl#name> "title" .
+<https://astrea.linkeddata.es/shapes#794c3316e8847ea307cdcf62e6d04863> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#Literal> .
+<https://astrea.linkeddata.es/shapes#794c3316e8847ea307cdcf62e6d04863> <http://www.w3.org/ns/shacl#path> <https://auroral.iot.linkeddata.es/def/electrical-vehicle#title> .
+<https://astrea.linkeddata.es/shapes#794c3316e8847ea307cdcf62e6d04863> <http://www.w3.org/ns/shacl#pattern> ".*" .
+# 
+# https://astrea.linkeddata.es/shapes#8a03c06b2ca97417247ee7753887fbb4
+<https://astrea.linkeddata.es/shapes#8a03c06b2ca97417247ee7753887fbb4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://astrea.linkeddata.es/shapes#8a03c06b2ca97417247ee7753887fbb4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#NodeShape> .
+<https://astrea.linkeddata.es/shapes#8a03c06b2ca97417247ee7753887fbb4> <http://www.w3.org/2000/01/rdf-schema#label> "Energy Property" .
+<https://astrea.linkeddata.es/shapes#8a03c06b2ca97417247ee7753887fbb4> <http://www.w3.org/ns/shacl#name> "Energy Property" .
+<https://astrea.linkeddata.es/shapes#8a03c06b2ca97417247ee7753887fbb4> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<https://astrea.linkeddata.es/shapes#8a03c06b2ca97417247ee7753887fbb4> <http://www.w3.org/ns/shacl#targetClass> <https://auroral.iot.linkeddata.es/def/adapters#EnergyProperty> .
+# 
+# https://astrea.linkeddata.es/shapes#8b052c638205118b26f91ee96a1386c5
+<https://astrea.linkeddata.es/shapes#8b052c638205118b26f91ee96a1386c5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://astrea.linkeddata.es/shapes#8b052c638205118b26f91ee96a1386c5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#NodeShape> .
+<https://astrea.linkeddata.es/shapes#8b052c638205118b26f91ee96a1386c5> <http://www.w3.org/2000/01/rdf-schema#label> "Data Provider" .
+<https://astrea.linkeddata.es/shapes#8b052c638205118b26f91ee96a1386c5> <http://www.w3.org/ns/shacl#name> "Data Provider" .
+<https://astrea.linkeddata.es/shapes#8b052c638205118b26f91ee96a1386c5> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<https://astrea.linkeddata.es/shapes#8b052c638205118b26f91ee96a1386c5> <http://www.w3.org/ns/shacl#targetClass> <https://auroral.iot.linkeddata.es/def/electrical-vehicle#DataProvider> .
+# 
+# https://astrea.linkeddata.es/shapes#80698950a8e30f41f328b1518c59aba0
+<https://astrea.linkeddata.es/shapes#80698950a8e30f41f328b1518c59aba0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://astrea.linkeddata.es/shapes#80698950a8e30f41f328b1518c59aba0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyShape> .
+<https://astrea.linkeddata.es/shapes#80698950a8e30f41f328b1518c59aba0> <http://www.w3.org/2000/01/rdf-schema#label> "contact telephone" .
+<https://astrea.linkeddata.es/shapes#80698950a8e30f41f328b1518c59aba0> <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/2001/XMLSchema#string> .
+<https://astrea.linkeddata.es/shapes#80698950a8e30f41f328b1518c59aba0> <http://www.w3.org/ns/shacl#name> "contact telephone" .
+<https://astrea.linkeddata.es/shapes#80698950a8e30f41f328b1518c59aba0> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#Literal> .
+<https://astrea.linkeddata.es/shapes#80698950a8e30f41f328b1518c59aba0> <http://www.w3.org/ns/shacl#path> <https://auroral.iot.linkeddata.es/def/electrical-vehicle#contactTelephone> .
+<https://astrea.linkeddata.es/shapes#80698950a8e30f41f328b1518c59aba0> <http://www.w3.org/ns/shacl#pattern> ".*" .
+# 
+# https://astrea.linkeddata.es/shapes#8205776f6cc763703225eeb9505b46a9
+<https://astrea.linkeddata.es/shapes#8205776f6cc763703225eeb9505b46a9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://astrea.linkeddata.es/shapes#8205776f6cc763703225eeb9505b46a9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyShape> .
+<https://astrea.linkeddata.es/shapes#8205776f6cc763703225eeb9505b46a9> <http://www.w3.org/2000/01/rdf-schema#label> "operator id" .
+<https://astrea.linkeddata.es/shapes#8205776f6cc763703225eeb9505b46a9> <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/2001/XMLSchema#string> .
+<https://astrea.linkeddata.es/shapes#8205776f6cc763703225eeb9505b46a9> <http://www.w3.org/ns/shacl#name> "operator id" .
+<https://astrea.linkeddata.es/shapes#8205776f6cc763703225eeb9505b46a9> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#Literal> .
+<https://astrea.linkeddata.es/shapes#8205776f6cc763703225eeb9505b46a9> <http://www.w3.org/ns/shacl#path> <https://auroral.iot.linkeddata.es/def/cell#operatorId> .
+<https://astrea.linkeddata.es/shapes#8205776f6cc763703225eeb9505b46a9> <http://www.w3.org/ns/shacl#pattern> ".*" .
+# 
+# https://astrea.linkeddata.es/shapes#9e113a1551a8f7dd62d241baaeb204c7
+<https://astrea.linkeddata.es/shapes#9e113a1551a8f7dd62d241baaeb204c7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://astrea.linkeddata.es/shapes#9e113a1551a8f7dd62d241baaeb204c7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyShape> .
+<https://astrea.linkeddata.es/shapes#9e113a1551a8f7dd62d241baaeb204c7> <http://www.w3.org/2000/01/rdf-schema#label> "is member ship required" .
+<https://astrea.linkeddata.es/shapes#9e113a1551a8f7dd62d241baaeb204c7> <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/2001/XMLSchema#boolean> .
+<https://astrea.linkeddata.es/shapes#9e113a1551a8f7dd62d241baaeb204c7> <http://www.w3.org/ns/shacl#name> "is member ship required" .
+<https://astrea.linkeddata.es/shapes#9e113a1551a8f7dd62d241baaeb204c7> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#Literal> .
+<https://astrea.linkeddata.es/shapes#9e113a1551a8f7dd62d241baaeb204c7> <http://www.w3.org/ns/shacl#path> <https://auroral.iot.linkeddata.es/def/electrical-vehicle#isMemberShipRequired> .
+<https://astrea.linkeddata.es/shapes#9e113a1551a8f7dd62d241baaeb204c7> <http://www.w3.org/ns/shacl#pattern> "true|false|0|1" .
+# 
+# https://astrea.linkeddata.es/shapes#90c2ded574691578345c6382c4f2409b
+<https://astrea.linkeddata.es/shapes#90c2ded574691578345c6382c4f2409b> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://astrea.linkeddata.es/shapes#90c2ded574691578345c6382c4f2409b> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyShape> .
+<https://astrea.linkeddata.es/shapes#90c2ded574691578345c6382c4f2409b> <http://www.w3.org/2000/01/rdf-schema#label> "is pay at location" .
+<https://astrea.linkeddata.es/shapes#90c2ded574691578345c6382c4f2409b> <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/2001/XMLSchema#boolean> .
+<https://astrea.linkeddata.es/shapes#90c2ded574691578345c6382c4f2409b> <http://www.w3.org/ns/shacl#name> "is pay at location" .
+<https://astrea.linkeddata.es/shapes#90c2ded574691578345c6382c4f2409b> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#Literal> .
+<https://astrea.linkeddata.es/shapes#90c2ded574691578345c6382c4f2409b> <http://www.w3.org/ns/shacl#path> <https://auroral.iot.linkeddata.es/def/electrical-vehicle#isPayAtLocation> .
+<https://astrea.linkeddata.es/shapes#90c2ded574691578345c6382c4f2409b> <http://www.w3.org/ns/shacl#pattern> "true|false|0|1" .
+# 
+# https://astrea.linkeddata.es/shapes#93d5dfa6b64c3a6af2863cd7ee045c6e
+<https://astrea.linkeddata.es/shapes#93d5dfa6b64c3a6af2863cd7ee045c6e> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://astrea.linkeddata.es/shapes#93d5dfa6b64c3a6af2863cd7ee045c6e> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyShape> .
+<https://astrea.linkeddata.es/shapes#93d5dfa6b64c3a6af2863cd7ee045c6e> <http://www.w3.org/2000/01/rdf-schema#label> "general comment" .
+<https://astrea.linkeddata.es/shapes#93d5dfa6b64c3a6af2863cd7ee045c6e> <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/2001/XMLSchema#integer> .
+<https://astrea.linkeddata.es/shapes#93d5dfa6b64c3a6af2863cd7ee045c6e> <http://www.w3.org/ns/shacl#name> "general comment" .
+<https://astrea.linkeddata.es/shapes#93d5dfa6b64c3a6af2863cd7ee045c6e> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#Literal> .
+<https://astrea.linkeddata.es/shapes#93d5dfa6b64c3a6af2863cd7ee045c6e> <http://www.w3.org/ns/shacl#path> <https://auroral.iot.linkeddata.es/def/electrical-vehicle#generalComment> .
+<https://astrea.linkeddata.es/shapes#93d5dfa6b64c3a6af2863cd7ee045c6e> <http://www.w3.org/ns/shacl#pattern> "[\\-+]?[0-9]+" .
+# 
+# https://astrea.linkeddata.es/shapes#97dab295f4f9f7d800f60764c90d2b18
+<https://astrea.linkeddata.es/shapes#97dab295f4f9f7d800f60764c90d2b18> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://astrea.linkeddata.es/shapes#97dab295f4f9f7d800f60764c90d2b18> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyShape> .
+<https://astrea.linkeddata.es/shapes#97dab295f4f9f7d800f60764c90d2b18> <http://www.w3.org/2000/01/rdf-schema#label> "has address" .
+<https://astrea.linkeddata.es/shapes#97dab295f4f9f7d800f60764c90d2b18> <http://www.w3.org/ns/shacl#class> <https://auroral.iot.linkeddata.es/def/car-booking#Address> .
+<https://astrea.linkeddata.es/shapes#97dab295f4f9f7d800f60764c90d2b18> <http://www.w3.org/ns/shacl#name> "has address" .
+<https://astrea.linkeddata.es/shapes#97dab295f4f9f7d800f60764c90d2b18> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#BlankNodeOrIRI> .
+<https://astrea.linkeddata.es/shapes#97dab295f4f9f7d800f60764c90d2b18> <http://www.w3.org/ns/shacl#path> <https://auroral.iot.linkeddata.es/def/electrical-vehicle#hasAddress> .
+# 
+# Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/
