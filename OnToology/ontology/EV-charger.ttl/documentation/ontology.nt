@@ -6,6 +6,7 @@
 <https://auroral.iot.linkeddata.es/def/electrical-vehicle#> <http://purl.org/dc/elements/1.1/creator> "Maria Poveda Villalon" .
 <https://auroral.iot.linkeddata.es/def/electrical-vehicle#> <http://purl.org/dc/elements/1.1/creator> "Raul Garcia Castro" .
 <https://auroral.iot.linkeddata.es/def/electrical-vehicle#> <http://purl.org/dc/elements/1.1/description> "The AURORAL Electrical vehicle charger aims at modelling the electrical vehicle charger in the mobility  domain" .
+<https://auroral.iot.linkeddata.es/def/electrical-vehicle#> <http://purl.org/dc/terms/license> <http://purl.org/NET/rdflicense/cc-by4.0> .
 # 
 # 
 # #################################################################
@@ -21,6 +22,9 @@
 # http://purl.org/dc/elements/1.1/description
 <http://purl.org/dc/elements/1.1/description> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
 # 
+# http://purl.org/dc/terms/license
+<http://purl.org/dc/terms/license> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
 # 
 # 
 # #################################################################
@@ -32,8 +36,6 @@
 # 
 # http://www.w3.org/2003/01/geo/wgs84_pos#location
 <http://www.w3.org/2003/01/geo/wgs84_pos#location> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://www.w3.org/2003/01/geo/wgs84_pos#location> <http://www.w3.org/2000/01/rdf-schema#domain> <https://auroral.iot.linkeddata.es/def/car-booking#Address> .
-<http://www.w3.org/2003/01/geo/wgs84_pos#location> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2003/01/geo/wgs84_pos#Point> .
 <http://www.w3.org/2003/01/geo/wgs84_pos#location> <http://www.w3.org/2000/01/rdf-schema#label> "location" .
 # 
 # https://auroral.iot.linkeddata.es/def/cell#hasOperator
@@ -111,12 +113,10 @@
 # 
 # http://www.w3.org/2003/01/geo/wgs84_pos#lat
 <http://www.w3.org/2003/01/geo/wgs84_pos#lat> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://www.w3.org/2003/01/geo/wgs84_pos#lat> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2003/01/geo/wgs84_pos#Point> .
 <http://www.w3.org/2003/01/geo/wgs84_pos#lat> <http://www.w3.org/2000/01/rdf-schema#label> "lat" .
 # 
 # http://www.w3.org/2003/01/geo/wgs84_pos#long
 <http://www.w3.org/2003/01/geo/wgs84_pos#long> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://www.w3.org/2003/01/geo/wgs84_pos#long> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2003/01/geo/wgs84_pos#Point> .
 <http://www.w3.org/2003/01/geo/wgs84_pos#long> <http://www.w3.org/2000/01/rdf-schema#label> "long" .
 # 
 # https://auroral.iot.linkeddata.es/def/car-booking#address
@@ -251,7 +251,6 @@
 # 
 # https://auroral.iot.linkeddata.es/def/electrical-vehicle#title
 <https://auroral.iot.linkeddata.es/def/electrical-vehicle#title> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<https://auroral.iot.linkeddata.es/def/electrical-vehicle#title> <http://www.w3.org/2000/01/rdf-schema#domain> <https://auroral.iot.linkeddata.es/def/electrical-vehicle#UsageType> .
 <https://auroral.iot.linkeddata.es/def/electrical-vehicle#title> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
 <https://auroral.iot.linkeddata.es/def/electrical-vehicle#title> <http://www.w3.org/2000/01/rdf-schema#label> "title" .
 # 
