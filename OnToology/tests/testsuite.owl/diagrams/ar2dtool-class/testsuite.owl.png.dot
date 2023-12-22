@@ -1,0 +1,21 @@
+digraph ar2dtool_diagram { 
+rankdir=LR;
+size="1501"
+	"vtc:Test1" -> "vtc:TestSuiteEvcharger" [ label = "vtc:belongsTo" ];
+	"vtc:Test6" -> "vtc:TestSuiteEvcharger" [ label = "vtc:belongsTo" ];
+	"vtc:Test11" -> "vtc:TestSuiteEvcharger" [ label = "vtc:belongsTo" ];
+	"vtc:test18" -> "vtc:TestSuiteEvcharger" [ label = "vtc:belongsTo" ];
+	"vtc:Test4" -> "vtc:TestSuiteEvcharger" [ label = "vtc:belongsTo" ];
+	"vtc:Test9" -> "vtc:TestSuiteEvcharger" [ label = "vtc:belongsTo" ];
+	"vtc:Test14" -> "vtc:TestSuiteEvcharger" [ label = "vtc:belongsTo" ];
+	"vtc:Test2" -> "vtc:TestSuiteEvcharger" [ label = "vtc:belongsTo" ];
+	"vtc:Test7" -> "vtc:TestSuiteEvcharger" [ label = "vtc:belongsTo" ];
+	"vtc:Test12" -> "vtc:TestSuiteEvcharger" [ label = "vtc:belongsTo" ];
+	"vtc:Test17" -> "vtc:TestSuiteEvcharger" [ label = "vtc:belongsTo" ];
+	"vtc:Test5" -> "vtc:TestSuiteEvcharger" [ label = "vtc:belongsTo" ];
+	"vtc:Test10" -> "vtc:TestSuiteEvcharger" [ label = "vtc:belongsTo" ];
+	"vtc:Test15" -> "vtc:TestSuiteEvcharger" [ label = "vtc:belongsTo" ];
+	"vtc:Test8" -> "vtc:TestSuiteEvcharger" [ label = "vtc:belongsTo" ];
+	"vtc:Test13" -> "vtc:TestSuiteEvcharger" [ label = "vtc:belongsTo" ];
+
+}
