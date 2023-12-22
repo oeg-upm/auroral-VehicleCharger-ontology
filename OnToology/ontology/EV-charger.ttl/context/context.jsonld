@@ -179,6 +179,9 @@
       "@id" : "https://auroral.iot.linkeddata.es/def/cell#operatorId",
       "@type" : "http://www.w3.org/2001/XMLSchema#string"
     },
+    "comment" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+    },
     "StatusProperty" : {
       "@id" : "https://auroral.iot.linkeddata.es/def/adapters#StatusProperty"
     },
